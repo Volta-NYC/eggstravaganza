@@ -1,0 +1,2127 @@
+[
+  {
+    "id": "54",
+    "slug": "hearty-breakfast",
+    "name": "Hearty Breakfast",
+    "price": 8.75,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/EAW4UXA6YP7Q3F3UWIL3CC4H.jpeg",
+    "localImage": "/products/hearty-breakfast.jpeg",
+    "description": "Cage-free egg whites, turkey, spinach, and tomatoes served on a plate or a 12-inch flour",
+    "options": [
+      {
+        "name": "Serving Preparation Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Flour Tortilla (12 Inch)",
+            "extra": 0
+          },
+          {
+            "name": "Plate",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Preparation Addition (Hearty Breakfast)",
+        "required": false,
+        "choices": [
+          {
+            "name": "Omelette",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "breakfast",
+    "sourceUrl": "https://www.taquitoshop.com/product/hearty-breakfast/54"
+  },
+  {
+    "id": "40",
+    "slug": "protein-eggs-breakfast",
+    "name": "Protein & Eggs Breakfast",
+    "price": 10.75,
+    "image": null,
+    "description": "Cage-free egg whites, grilled chicken, and cheese served on a plate or a 12-inch flour",
+    "options": [
+      {
+        "name": "Serving Preparation Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Flour Tortilla (12 Inch)",
+            "extra": 0
+          },
+          {
+            "name": "Plate",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Preparation Addition (Protein & Eggs Breakfast)",
+        "required": false,
+        "choices": [
+          {
+            "name": "Omelette",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "breakfast",
+    "sourceUrl": "https://www.taquitoshop.com/product/protein-eggs-breakfast/40"
+  },
+  {
+    "id": "96",
+    "slug": "two-cage-free-eggs-any-style",
+    "name": "Two Cage-Free Eggs Any Style",
+    "price": 8,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/STDDOVKVEYC5SOPOAKBFB6MV.jpeg",
+    "localImage": "/products/two-cage-free-eggs-any-style.jpeg",
+    "description": "Choose from scrambled, sunny-side up, over easy, or over medium (please specify) served with home fries potatoes and buttered toast",
+    "options": [
+      {
+        "name": "Egg Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Over Easy",
+            "extra": 0
+          },
+          {
+            "name": "Over Medium",
+            "extra": 0
+          },
+          {
+            "name": "Over Well Done",
+            "extra": 0
+          },
+          {
+            "name": "Scrambled",
+            "extra": 0
+          },
+          {
+            "name": "Sunny-Side Up",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "breakfast",
+    "sourceUrl": "https://www.taquitoshop.com/product/two-cage-free-eggs-any-style/96"
+  },
+  {
+    "id": "125",
+    "slug": "burger-a-la-mexicana",
+    "name": "Burger a La Mexicana",
+    "price": 10.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/TICEWLE4UKPHHN4DZOWF5EY4.png",
+    "localImage": "/products/burger-a-la-mexicana.png",
+    "description": "6 oz lean beef with homemade pico de gallo, Pepper Jack cheese, avocado, and jalapeño mayo lettuce on a brioche bun",
+    "options": [],
+    "category": "burgers",
+    "sourceUrl": "https://www.taquitoshop.com/product/burger-a-la-mexicana/125"
+  },
+  {
+    "id": "126",
+    "slug": "grilled-chicken-avocado-brioche",
+    "name": "Grilled Chicken Avocado Brioche",
+    "price": 9.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/JNI2SYO6STALY76KOROY6UJM.png",
+    "localImage": "/products/grilled-chicken-avocado-brioche.png",
+    "description": "Seasoned grilled chicken breast, sliced avocado, lettuce, tomato, raw onion, and Monterey Jack cheese on a brioche bun",
+    "options": [],
+    "category": "burgers",
+    "sourceUrl": "https://www.taquitoshop.com/product/grilled-chicken-avocado-brioche/126"
+  },
+  {
+    "id": "124",
+    "slug": "grilled-classico-brioche",
+    "name": "Grilled Classico Brioche",
+    "price": 12.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/SC72Z3MMKRKBHQT6HZLDQ5UG.png",
+    "localImage": "/products/grilled-classico-brioche.png",
+    "description": "Seasoned grilled chicken breast with romaine lettuce, tomatoes, and mayo on a brioche bun",
+    "options": [],
+    "category": "burgers",
+    "sourceUrl": "https://www.taquitoshop.com/product/grilled-classico-brioche/124"
+  },
+  {
+    "id": "122",
+    "slug": "power-breakfast-burger",
+    "name": "Power Breakfast Burger",
+    "price": 10.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/ZDJD6UV6XRGHAHZKVY7T5SBP.png",
+    "localImage": "/products/power-breakfast-burger.png",
+    "description": "Our 6 oz lean beef with cage-free egg, choice of protein, tomato, lettuce, and raw onion served on a brioche bun",
+    "options": [
+      {
+        "name": "Cheese",
+        "required": true,
+        "choices": [
+          {
+            "name": "American",
+            "extra": 0
+          },
+          {
+            "name": "Cheddar Cheese",
+            "extra": 0
+          },
+          {
+            "name": "Feta Cheese",
+            "extra": 0
+          },
+          {
+            "name": "Mozzarella Cheese",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Egg Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Over Easy",
+            "extra": 0
+          },
+          {
+            "name": "Over Medium",
+            "extra": 0
+          },
+          {
+            "name": "Over Well Done",
+            "extra": 0
+          },
+          {
+            "name": "Scrambled",
+            "extra": 0
+          },
+          {
+            "name": "Sunny-Side Up",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Protein (Power Breakfast Burger)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Crisp Brown Bacon",
+            "extra": 0
+          },
+          {
+            "name": "Grilled Ham",
+            "extra": 0
+          },
+          {
+            "name": "Patty Sausages",
+            "extra": 0
+          },
+          {
+            "name": "Sliced Turkey",
+            "extra": 0
+          },
+          {
+            "name": "Turkey Bacon",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "burgers",
+    "sourceUrl": "https://www.taquitoshop.com/product/power-breakfast-burger/122"
+  },
+  {
+    "id": "127",
+    "slug": "spicy-chicken-sandwich",
+    "name": "Spicy Chicken Sandwich",
+    "price": 8.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/GIPGMMKBW6UM5U2MBEO2NLYM.png",
+    "localImage": "/products/spicy-chicken-sandwich.png",
+    "description": "Grilled chicken breast, buffalo sauce, raw onion, and jalapeño mayo mozzarella on a brioche bun",
+    "options": [],
+    "category": "burgers",
+    "sourceUrl": "https://www.taquitoshop.com/product/spicy-chicken-sandwich/127"
+  },
+  {
+    "id": "128",
+    "slug": "the-skillman-burger",
+    "name": "The Skillman Burger",
+    "price": 7.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/LPUANCIF2BM5P44OYGBWUS4A.png",
+    "localImage": "/products/the-skillman-burger.png",
+    "description": "6 oz lean beef with melted American cheese, lettuce, tomato, raw onion, pickle, and ketchup on a brioche bun",
+    "options": [],
+    "category": "burgers",
+    "sourceUrl": "https://www.taquitoshop.com/product/the-skillman-burger/128"
+  },
+  {
+    "id": "121",
+    "slug": "bottle-water",
+    "name": "Bottle Water",
+    "price": 2.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/52I57QEOMN3FM2IKZDHBIZKA.jpeg",
+    "localImage": "/products/bottle-water.jpeg",
+    "description": "",
+    "options": [],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/bottle-water/121"
+  },
+  {
+    "id": "77",
+    "slug": "bottled-water2",
+    "name": "Bottled Water#2",
+    "price": 2.5,
+    "image": null,
+    "description": "",
+    "options": [],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/bottled-water-2/77"
+  },
+  {
+    "id": "69",
+    "slug": "coca-cola",
+    "name": "Coca-Cola",
+    "price": 2.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/YW2FE4EKDP3PFIED2YRZOB4J.png",
+    "localImage": "/products/coca-cola.png",
+    "description": "",
+    "options": [],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/coca-cola/69"
+  },
+  {
+    "id": "78",
+    "slug": "diet-coke",
+    "name": "Diet Coke",
+    "price": 2.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/YW2FE4EKDP3PFIED2YRZOB4J.png",
+    "localImage": "/products/diet-coke.png",
+    "description": "Can",
+    "options": [],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/diet-coke/78"
+  },
+  {
+    "id": "74",
+    "slug": "doctor-pepper",
+    "name": "Doctor Pepper",
+    "price": 2.5,
+    "image": null,
+    "description": "Can",
+    "options": [],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/doctor-pepper/74"
+  },
+  {
+    "id": "119",
+    "slug": "fresh-brewed-colombian-iced-coffee",
+    "name": "Fresh Brewed Colombian Iced Coffee",
+    "price": 4.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/F3TKUWIG33MUEP3ERG4OPHFD.jpeg",
+    "localImage": "/products/fresh-brewed-colombian-iced-coffee.jpeg",
+    "description": "24 oz fresh brewed Colombian iced coffee with a touch of milk",
+    "options": [
+      {
+        "name": "Milk",
+        "required": true,
+        "choices": [
+          {
+            "name": "Half and Half",
+            "extra": 0
+          },
+          {
+            "name": "None",
+            "extra": 0
+          },
+          {
+            "name": "Oat Milk",
+            "extra": 0
+          },
+          {
+            "name": "Skim Milk",
+            "extra": 0
+          },
+          {
+            "name": "Whole Milk",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/fresh-brewed-colombian-iced-coffee/119"
+  },
+  {
+    "id": "71",
+    "slug": "freshly-brewed-colombian-coffee",
+    "name": "Freshly Brewed Colombian Coffee",
+    "price": 3.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/PX2SMYH7VHKDKVA3S5IESX43.jpeg",
+    "localImage": "/products/freshly-brewed-colombian-coffee.jpeg",
+    "description": "Cup of tasty aromatic Colombian coffee with a touch of milk",
+    "options": [],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/freshly-brewed-colombian-coffee/71"
+  },
+  {
+    "id": "68",
+    "slug": "gatorade-drink",
+    "name": "Gatorade Drink",
+    "price": 4.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/IFAR4EVVKB62ZSJ7OY2B3UN3.jpeg",
+    "localImage": "/products/gatorade-drink.jpeg",
+    "description": "Assorted flavors: lemon, fruit punch, and orange",
+    "options": [
+      {
+        "name": "Flavor Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Fruit Punch",
+            "extra": 0
+          },
+          {
+            "name": "Lemon",
+            "extra": 0
+          },
+          {
+            "name": "Orange",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/gatorade-drink/68"
+  },
+  {
+    "id": "72",
+    "slug": "ginger-ale",
+    "name": "Ginger Ale",
+    "price": 2.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/Q4Z724XS3REJB6U7RRR2DPIX.png",
+    "localImage": "/products/ginger-ale.png",
+    "description": "",
+    "options": [],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/ginger-ale/72"
+  },
+  {
+    "id": "75",
+    "slug": "jarritos-mexican-soda",
+    "name": "Jarritos Mexican Soda",
+    "price": 4,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/W77ZYYJZGYYINAUKYQYCWKRT.jpeg",
+    "localImage": "/products/jarritos-mexican-soda.jpeg",
+    "description": "Assorted flavors made with sugar cane. Please ask for selection",
+    "options": [
+      {
+        "name": "Flavor Choice (Jarritos Mexican Soda)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Flavor 1",
+            "extra": 0
+          },
+          {
+            "name": "Flavor 2",
+            "extra": 0
+          },
+          {
+            "name": "Flavor 3",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/jarritos-mexican-soda/75"
+  },
+  {
+    "id": "76",
+    "slug": "pepsi-cola",
+    "name": "Pepsi Cola",
+    "price": 4.5,
+    "image": null,
+    "description": "Bottle",
+    "options": [],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/pepsi-cola/76"
+  },
+  {
+    "id": "73",
+    "slug": "seltzer",
+    "name": "Seltzer",
+    "price": 2.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/GULLF5QLDYQBL62MBXF6C65O.png",
+    "localImage": "/products/seltzer.png",
+    "description": "Can",
+    "options": [
+      {
+        "name": "Seltzer Flavor Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Seltzer Flavor 1",
+            "extra": 0
+          },
+          {
+            "name": "Seltzer Flavor 2",
+            "extra": 0
+          },
+          {
+            "name": "Seltzer Flavor 3",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/seltzer/73"
+  },
+  {
+    "id": "70",
+    "slug": "snapple-drink",
+    "name": "Snapple Drink",
+    "price": 4,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/IJV3PGZSSUIVABMIYBTEDF7E.jpeg",
+    "localImage": "/products/snapple-drink.jpeg",
+    "description": "Assorted flavors: Lemon, peach, and raspberry",
+    "options": [
+      {
+        "name": "Flavor Choice (Snapple Drink)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Lemon",
+            "extra": 0
+          },
+          {
+            "name": "Peach",
+            "extra": 0
+          },
+          {
+            "name": "Raspberry",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/snapple-drink/70"
+  },
+  {
+    "id": "120",
+    "slug": "soda-bottle",
+    "name": "Soda Bottle",
+    "price": 4.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/MCJOD7NLNWTSDHIPV6DVFV4I.png",
+    "localImage": "/products/soda-bottle.png",
+    "description": "Assorted flavors, Coca-Cola, ginger ale, or Pepsi cola",
+    "options": [
+      {
+        "name": "Soda",
+        "required": true,
+        "choices": [
+          {
+            "name": "Coca-Cola",
+            "extra": 0
+          },
+          {
+            "name": "Ginger Ale",
+            "extra": 0
+          },
+          {
+            "name": "Pepsi Cola",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/soda-bottle/120"
+  },
+  {
+    "id": "123",
+    "slug": "soda-can",
+    "name": "Soda Can",
+    "price": 2.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/CKJ5VE4F2GWC2DJGV3W6UM5H.png",
+    "localImage": "/products/soda-can.png",
+    "description": "Assorted flavors: Coca-Cola, Diet Coke, ginger ale, or Dr Pepper",
+    "options": [
+      {
+        "name": "Soda (Soda Can)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Coca-Cola",
+            "extra": 0
+          },
+          {
+            "name": "Diet Coke",
+            "extra": 0
+          },
+          {
+            "name": "Dr Pepper",
+            "extra": 0
+          },
+          {
+            "name": "Ginger Ale",
+            "extra": 0
+          },
+          {
+            "name": "Seltzer",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "drinks",
+    "sourceUrl": "https://www.taquitoshop.com/product/soda-can/123"
+  },
+  {
+    "id": "100",
+    "slug": "buttermilk-pancakes-deluxe",
+    "name": "Buttermilk Pancakes Deluxe",
+    "price": 13.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/YTGGR3B2OLW35A75FEQ7VOCW.jpeg",
+    "localImage": "/products/buttermilk-pancakes-deluxe.jpeg",
+    "description": "Homemade buttermilk pancakes with 2 eggs any style with a choice of protein served with maple syrup and attach a powder sugar",
+    "options": [
+      {
+        "name": "Egg Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Over Easy",
+            "extra": 0
+          },
+          {
+            "name": "Over Medium",
+            "extra": 0
+          },
+          {
+            "name": "Over Well Done",
+            "extra": 0
+          },
+          {
+            "name": "Scrambled",
+            "extra": 0
+          },
+          {
+            "name": "Sunny-Side Up",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Protein (Buttermilk Pancakes Deluxe)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Crisp Brown Bacon",
+            "extra": 0
+          },
+          {
+            "name": "Grilled Ham",
+            "extra": 0
+          },
+          {
+            "name": "Patty Sausages",
+            "extra": 0
+          },
+          {
+            "name": "Sliced Turkey",
+            "extra": 0
+          },
+          {
+            "name": "Turkey Bacon",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "griddle",
+    "sourceUrl": "https://www.taquitoshop.com/product/buttermilk-pancakes-deluxe/100"
+  },
+  {
+    "id": "101",
+    "slug": "challah-french-toast",
+    "name": "Challah French Toast",
+    "price": 8.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/3OACXLQX37H7GOIBG4QQZ3D6.jpeg",
+    "localImage": "/products/challah-french-toast.jpeg",
+    "description": "Challah French toast, served with powdered sugar and maple syrup",
+    "options": [],
+    "category": "griddle",
+    "sourceUrl": "https://www.taquitoshop.com/product/challah-french-toast/101"
+  },
+  {
+    "id": "102",
+    "slug": "chicken-waffles",
+    "name": "Chicken & Waffles",
+    "price": 12.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/WHJGMWUTSUWX3FVIMC5ZS2DI.jpeg",
+    "localImage": "/products/chicken-waffles.jpeg",
+    "description": "Hand-breaded chicken tenders a golden crisp, Belgian waffles with honey mustard and a touch of powdered sugar",
+    "options": [],
+    "category": "griddle",
+    "sourceUrl": "https://www.taquitoshop.com/product/chicken-waffles/102"
+  },
+  {
+    "id": "95",
+    "slug": "homemade-buttermilk-pancakes",
+    "name": "Homemade Buttermilk Pancakes",
+    "price": 8.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/KQGHDUP7EGN5UB36SSMZW6MB.jpeg",
+    "localImage": "/products/homemade-buttermilk-pancakes.jpeg",
+    "description": "Our homemade, buttermilk pancakes served with powdered sugar and maple syrup",
+    "options": [],
+    "category": "griddle",
+    "sourceUrl": "https://www.taquitoshop.com/product/homemade-buttermilk-pancakes/95"
+  },
+  {
+    "id": "89",
+    "slug": "lumberjack-french-toast-deluxe",
+    "name": "Lumberjack French Toast Deluxe",
+    "price": 13.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/U5DCXG6VK3DHDUDOHHVZPDZZ.jpeg",
+    "localImage": "/products/lumberjack-french-toast-deluxe.jpeg",
+    "description": "Served with two eggs any style choice of bacon, ham, or patty sausages",
+    "options": [
+      {
+        "name": "Egg Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Over Easy",
+            "extra": 0
+          },
+          {
+            "name": "Over Medium",
+            "extra": 0
+          },
+          {
+            "name": "Over Well Done",
+            "extra": 0
+          },
+          {
+            "name": "Scrambled",
+            "extra": 0
+          },
+          {
+            "name": "Sunny-Side Up",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Protein (Lumberjack French Toast Deluxe)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Crisp Brown Bacon",
+            "extra": 0
+          },
+          {
+            "name": "Grilled Ham",
+            "extra": 0
+          },
+          {
+            "name": "Patty Sausages",
+            "extra": 0
+          },
+          {
+            "name": "Sliced Turkey",
+            "extra": 0
+          },
+          {
+            "name": "Turkey Bacon",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "griddle",
+    "sourceUrl": "https://www.taquitoshop.com/product/lumberjack-french-toast-deluxe/89"
+  },
+  {
+    "id": "92",
+    "slug": "waffle-americano",
+    "name": "Waffle Americano",
+    "price": 8.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/MSMQNQUIN4BM2LTG2C3KH5CI.jpeg",
+    "localImage": "/products/waffle-americano.jpeg",
+    "description": "Golden crisp, homemade Belgian waffle with powdered sugar and maple syrup",
+    "options": [],
+    "category": "griddle",
+    "sourceUrl": "https://www.taquitoshop.com/product/waffle-americano/92"
+  },
+  {
+    "id": "104",
+    "slug": "waffle-americano-deluxe",
+    "name": "Waffle Americano Deluxe",
+    "price": 13.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/4KJXGP23OA2KKI6RZXL6C5XW.jpeg",
+    "localImage": "/products/waffle-americano-deluxe.jpeg",
+    "description": "Golden crisp, Belgian waffle served two eggs any style. With choice of protein",
+    "options": [
+      {
+        "name": "Egg Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Over Easy",
+            "extra": 0
+          },
+          {
+            "name": "Over Medium",
+            "extra": 0
+          },
+          {
+            "name": "Over Well Done",
+            "extra": 0
+          },
+          {
+            "name": "Scrambled",
+            "extra": 0
+          },
+          {
+            "name": "Sunny-Side Up",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Protein (Waffle Americano Deluxe)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Crisp Brown Bacon",
+            "extra": 0
+          },
+          {
+            "name": "Grilled Ham",
+            "extra": 0
+          },
+          {
+            "name": "Patty Sausages",
+            "extra": 0
+          },
+          {
+            "name": "Sliced Turkey",
+            "extra": 0
+          },
+          {
+            "name": "Turkey Bacon",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "griddle",
+    "sourceUrl": "https://www.taquitoshop.com/product/waffle-americano-deluxe/104"
+  },
+  {
+    "id": "86",
+    "slug": "breakfast-tacos",
+    "name": "Breakfast Tacos",
+    "price": 8.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/XQNQDKHTEJT5DL3TUZNXTVRQ.jpeg",
+    "localImage": "/products/breakfast-tacos.jpeg",
+    "description": "Voted &#34;Formidable breakfast tacos&#34; by NY eater. Cage-free eggs served on a gluten-free corn tortilla with homemade guacamole salsa, sprinkle cilantro, and a touch of cotija cheese.serves 2 per order.",
+    "options": [
+      {
+        "name": "Protein",
+        "required": true,
+        "choices": [
+          {
+            "name": "Bacon and Eggs",
+            "extra": 0
+          },
+          {
+            "name": "Chicken and Eggs",
+            "extra": 0
+          },
+          {
+            "name": "Chorizo Fresco",
+            "extra": 0
+          },
+          {
+            "name": "Ham and Eggs",
+            "extra": 0
+          },
+          {
+            "name": "Steak and Eggs",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/breakfast-tacos/86"
+  },
+  {
+    "id": "81",
+    "slug": "california",
+    "name": "California",
+    "price": 9.25,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/SKIYRPYQ5TOSJ6SNLHE2MPBC.jpeg",
+    "localImage": "/products/california.jpeg",
+    "description": "Cage-free eggs, mushrooms, tomatoes, sliced avocado, and mozzarella, served on a plate or a 12&#34; flour tortilla",
+    "options": [
+      {
+        "name": "Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Wrap",
+            "extra": 0
+          },
+          {
+            "name": "Omelette",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/california/81"
+  },
+  {
+    "id": "43",
+    "slug": "california-breakfast",
+    "name": "California Breakfast",
+    "price": 9.25,
+    "image": null,
+    "description": "Cage-free eggs, mushrooms, tomatoes, sliced avocado, and mozzarella, served on a plate or a 12-inch flour tortilla",
+    "options": [
+      {
+        "name": "Serving Preparation Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Flour Tortilla (12 Inch)",
+            "extra": 0
+          },
+          {
+            "name": "Plate",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Preparation Addition (California Breakfast)",
+        "required": false,
+        "choices": [
+          {
+            "name": "Omelette",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/california-breakfast/43"
+  },
+  {
+    "id": "39",
+    "slug": "chorizo-fresco",
+    "name": "Chorizo Fresco",
+    "price": 7.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/STS4UF6A2EWTYPMTDKJCXQJI.jpeg",
+    "localImage": "/products/chorizo-fresco.jpeg",
+    "description": "Chorizo fresco with an egg and cheese sandwich on a kaiser roll",
+    "options": [],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/chorizo-fresco/39"
+  },
+  {
+    "id": "83",
+    "slug": "denver",
+    "name": "Denver",
+    "price": 8.75,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/CJZSTBB6SRPNU6LVSL4CHFI6.jpeg",
+    "localImage": "/products/denver.jpeg",
+    "description": "Cage-free eggs, grilled onions, peppers, and ham served on a platter or a 12&#34; flour tortilla",
+    "options": [
+      {
+        "name": "Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Wrap",
+            "extra": 0
+          },
+          {
+            "name": "Omelette",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/denver/83"
+  },
+  {
+    "id": "49",
+    "slug": "denver-breakfast",
+    "name": "Denver Breakfast",
+    "price": 8.75,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/EAW4UXA6YP7Q3F3UWIL3CC4H.jpeg",
+    "localImage": "/products/denver-breakfast.jpeg",
+    "description": "Cage-free eggs, grilled onions, peppers, and ham served on a platter or a 12-inch flour tortilla",
+    "options": [
+      {
+        "name": "Serving Preparation Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Flour Tortilla (12 Inch)",
+            "extra": 0
+          },
+          {
+            "name": "Plate",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Preparation Addition",
+        "required": false,
+        "choices": [
+          {
+            "name": "Omelette",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/denver-breakfast/49"
+  },
+  {
+    "id": "109",
+    "slug": "grilled-chicken-blt-avocado-wrap",
+    "name": "Grilled Chicken (B.L.T) Avocado Wrap",
+    "price": 12.49,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/K7WWR2OQN3OUIT5754P47UMY.jpeg",
+    "localImage": "/products/grilled-chicken-blt-avocado-wrap.jpeg",
+    "description": "Sizzling grilled chicken with bacon, mixed greens tossed fresh (avocado lime dressing) crema, and mild salsa. Served on a 12&#34; flour tortilla wrap",
+    "options": [
+      {
+        "name": "Side (Grilled Chicken (B.L.T) Avocado Wrap)",
+        "required": false,
+        "choices": [
+          {
+            "name": "Crispy Fries",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Egg",
+        "required": false,
+        "choices": [
+          {
+            "name": "Fried Egg",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/grilled-chicken-b-l-t-avocado-wrap/109"
+  },
+  {
+    "id": "41",
+    "slug": "healthy-salad-bowls",
+    "name": "Healthy Salad Bowls",
+    "price": 10,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/RT5GMS3BOBAE2B2DLX37XRAL.jpeg",
+    "localImage": "/products/healthy-salad-bowls.jpeg",
+    "description": "Choose your protein with mescaline mix greens, tomatoes, mushrooms, a touch of Cotija cheese, sliced avocado, and homemade avocado lime dressing",
+    "options": [
+      {
+        "name": "Preparation Choice (Healthy Salad Bowls)",
+        "required": true,
+        "choices": [
+          {
+            "name": "no protein",
+            "extra": 0
+          },
+          {
+            "name": "Garden (Without Protein)",
+            "extra": 0
+          },
+          {
+            "name": "Cajun Chicken",
+            "extra": 0
+          },
+          {
+            "name": "Chorizo Fresco",
+            "extra": 0
+          },
+          {
+            "name": "Steak",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/healthy-salad-bowls/41"
+  },
+  {
+    "id": "63",
+    "slug": "huevos-a-la-mexicana",
+    "name": "Huevos A La Mexicana",
+    "price": 9.75,
+    "image": null,
+    "description": "Eggs country style with tomatoes, onions, touch of cilantro, guacamole salsa, and Cotija cheese",
+    "options": [
+      {
+        "name": "Preparation Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Plate",
+            "extra": 0
+          },
+          {
+            "name": "Taco",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/huevos-a-la-mexicana/63"
+  },
+  {
+    "id": "82",
+    "slug": "mexican-authentic",
+    "name": "Mexican Authentic",
+    "price": 13.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/67HVUNUVB2ZCBHHPNNV7ZTPS.jpeg",
+    "localImage": "/products/mexican-authentic.jpeg",
+    "description": "Cage-free eggs, chorizo, potatoes, onions, peppers, and cheese. Served on a plate or 12&#34; flour tortilla",
+    "options": [
+      {
+        "name": "Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Wrap",
+            "extra": 0
+          },
+          {
+            "name": "Omelette",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/mexican-authentic/82"
+  },
+  {
+    "id": "108",
+    "slug": "mexican-grilled-cheese",
+    "name": "Mexican Grilled Cheese",
+    "price": 9.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/5ZXGU5TJAG6QVKDET63E7WF5.jpeg",
+    "localImage": "/products/mexican-grilled-cheese.jpeg",
+    "description": "On a seven-grain bread with sizzling Mexican chorizo, bacon bits, tomatoes, guacamole mild salsa, a side of tortilla chips",
+    "options": [
+      {
+        "name": "Side (Mexican Grilled Cheese)",
+        "required": false,
+        "choices": [
+          {
+            "name": "Crispy Fries",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/mexican-grilled-cheese/108"
+  },
+  {
+    "id": "53",
+    "slug": "park-avenue-breakfast",
+    "name": "Park Avenue Breakfast",
+    "price": 9.25,
+    "image": null,
+    "description": "Cage-free eggs, sliced turkey, spinach, and cheese served on plate or a 12-inch flour tortilla",
+    "options": [
+      {
+        "name": "Serving Preparation Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Flour Tortilla (12 Inch)",
+            "extra": 0
+          },
+          {
+            "name": "Plate",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Preparation Addition (Park Avenue Breakfast)",
+        "required": false,
+        "choices": [
+          {
+            "name": "Omelette",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/park-avenue-breakfast/53"
+  },
+  {
+    "id": "105",
+    "slug": "platillos",
+    "name": "Platillos",
+    "price": 10.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/E4RCSCJ74S754UCZCONB4IUJ.jpeg",
+    "localImage": "/products/platillos.jpeg",
+    "description": "Choose your protein with Mexican rice, fresh mix green salad, cream, and guacamole salsa",
+    "options": [
+      {
+        "name": "Protein (Platillos)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Vegetarian",
+            "extra": 0
+          },
+          {
+            "name": "Pollo Asado",
+            "extra": 0
+          },
+          {
+            "name": "Carne Asada",
+            "extra": 0
+          },
+          {
+            "name": "Chorizo Fresco",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/platillos/105"
+  },
+  {
+    "id": "85",
+    "slug": "protein-eggs",
+    "name": "Protein & Eggs",
+    "price": 9.75,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/GEZPC77SGXYGHASD2GUSK36M.jpeg",
+    "localImage": "/products/protein-eggs.jpeg",
+    "description": "Cage-free egg whites, grilled chicken, and cheese served on a plate or a 12&#34; flour tortilla",
+    "options": [
+      {
+        "name": "Preparation Option",
+        "required": false,
+        "choices": [
+          {
+            "name": "Omelette",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/protein-eggs/85"
+  },
+  {
+    "id": "110",
+    "slug": "quesadillas",
+    "name": "Quesadillas",
+    "price": 10,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/ODGTHSRBWTGWEQDLOKEU4QHG.jpeg",
+    "localImage": "/products/quesadillas.jpeg",
+    "description": "Served with guacamole salsa, cream mexicana, and red salsa. Choose of side of homemade Mexican rice or fresh mix green salad. Please specify your side option",
+    "options": [
+      {
+        "name": "Preparation (Quesadillas)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Cajun Chicken",
+            "extra": 0
+          },
+          {
+            "name": "Carne Asada",
+            "extra": 0
+          },
+          {
+            "name": "Chorizo Fresco",
+            "extra": 0
+          },
+          {
+            "name": "Vegetarian",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Side",
+        "required": true,
+        "choices": [
+          {
+            "name": "Homemade Mexican Rice",
+            "extra": 0
+          },
+          {
+            "name": "Crisp Fries Deluxe",
+            "extra": 0
+          },
+          {
+            "name": "Mix Green Salad",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/quesadillas/110"
+  },
+  {
+    "id": "79",
+    "slug": "rise-and-shine",
+    "name": "Rise and Shine",
+    "price": 9.75,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/TLAWTYN5I32ZJHZQ3CTC7JAL.jpeg",
+    "localImage": "/products/rise-and-shine.jpeg",
+    "description": "Cage-free eggs, sliced turkey, spinach, and avocado served on a platter or a 12&#34; flour tortilla",
+    "options": [
+      {
+        "name": "Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Wrap",
+            "extra": 0
+          },
+          {
+            "name": "Omelette",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/rise-and-shine/79"
+  },
+  {
+    "id": "46",
+    "slug": "rise-and-shine-breakfast",
+    "name": "Rise and Shine Breakfast",
+    "price": 8.75,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/TLAWTYN5I32ZJHZQ3CTC7JAL.jpeg",
+    "localImage": "/products/rise-and-shine-breakfast.jpeg",
+    "description": "Cage eggs, sliced turkey, spinach, avocado served on a platter or a 12-inch flour tortilla",
+    "options": [
+      {
+        "name": "Serving Preparation Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Flour Tortilla (12 Inch)",
+            "extra": 0
+          },
+          {
+            "name": "Plate",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Preparation Addition",
+        "required": false,
+        "choices": [
+          {
+            "name": "Omelette",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/rise-and-shine-breakfast/46"
+  },
+  {
+    "id": "84",
+    "slug": "santa-fe",
+    "name": "Santa Fe",
+    "price": 9.25,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/67HVUNUVB2ZCBHHPNNV7ZTPS.jpeg",
+    "localImage": "/products/santa-fe.jpeg",
+    "description": "Cage-free eggs, patty, sausages, onions, peppers, and cheese served on a plate or a 12&#34; flour tortilla",
+    "options": [
+      {
+        "name": "Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Wrap",
+            "extra": 0
+          },
+          {
+            "name": "Omelette",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/santa-fe/84"
+  },
+  {
+    "id": "44",
+    "slug": "santa-fe-breakfast",
+    "name": "Santa Fe Breakfast",
+    "price": 9.25,
+    "image": null,
+    "description": "Cage-free eggs, patty, sausages, onions, peppers, and cheese served on a plate or a 12-inch flour tortilla",
+    "options": [
+      {
+        "name": "Serving Preparation Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Flour Tortilla (12 Inch)",
+            "extra": 0
+          },
+          {
+            "name": "Plate",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Preparation Addition (Santa Fe Breakfast)",
+        "required": false,
+        "choices": [
+          {
+            "name": "Omelette",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/santa-fe-breakfast/44"
+  },
+  {
+    "id": "111",
+    "slug": "sunnyside-burritos",
+    "name": "Sunnyside Burritos",
+    "price": 11,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/6OVSD5HF73QCNBRQQSBTB7XC.jpeg",
+    "localImage": "/products/sunnyside-burritos.jpeg",
+    "description": "Served on 12” flour tortilla with rice, beans, cream, mixed greens, guacamole, and salsa",
+    "options": [
+      {
+        "name": "Side (Midtown Burritos)",
+        "required": false,
+        "choices": [
+          {
+            "name": "Crispy Fries",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Protein (Midtown Burritos)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Pollo",
+            "extra": 0
+          },
+          {
+            "name": "Chorizo",
+            "extra": 0
+          },
+          {
+            "name": "Pollo Asado",
+            "extra": 0
+          },
+          {
+            "name": "Steak",
+            "extra": 0
+          },
+          {
+            "name": "Vegetarian",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Egg",
+        "required": false,
+        "choices": [
+          {
+            "name": "Fried Egg",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/sunnyside-burritos/111"
+  },
+  {
+    "id": "56",
+    "slug": "taco-bar",
+    "name": "Taco Bar",
+    "price": 6.75,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/V6276AOIMYFGPRAEAHIVHQKR.jpeg",
+    "localImage": "/products/taco-bar.jpeg",
+    "description": "Served on a gluten-free corn tortilla with onion, cilantro, guacamole salsa, Cotija cheese, and fresh lime",
+    "options": [
+      {
+        "name": "Preparation Choice (Taco Bar)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Cajun Chicken",
+            "extra": 0
+          },
+          {
+            "name": "Chicken & Eggs",
+            "extra": 0
+          },
+          {
+            "name": "Chorizo",
+            "extra": 0
+          },
+          {
+            "name": "Chorizo & Eggs",
+            "extra": 0
+          },
+          {
+            "name": "Huevos A La Mexicana",
+            "extra": 0
+          },
+          {
+            "name": "Steak",
+            "extra": 0
+          },
+          {
+            "name": "Steak & Eggs",
+            "extra": 0
+          },
+          {
+            "name": "Vegetarian with Rice, Mix Greens, & Sliced Avocado",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/taco-bar/56"
+  },
+  {
+    "id": "107",
+    "slug": "taco-bar-serves-3-tacos-choice-of-chicken-carne-asada-chorizo",
+    "name": "Taco Bar (Serves 3 Tacos) Choice of Chicken, Carne Asada, Chorizo",
+    "price": 11.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/LCMYZDRUC5MTY7FUSISC4DL7.jpeg",
+    "localImage": "/products/taco-bar-serves-3-tacos-choice-of-chicken-carne-asada-chorizo.jpeg",
+    "description": "Served on a gluten-free corn tortilla with onion, cilantro, guacamole salsa, cotija cheese, and fresh lime",
+    "options": [
+      {
+        "name": "Protein (Taco Bar (Serves 3 Tacos) Choice of Chicken, Carne Asada, Chorizo)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Cajun Chicken",
+            "extra": 0
+          },
+          {
+            "name": "Chicken & Eggs",
+            "extra": 0
+          },
+          {
+            "name": "Chorizo",
+            "extra": 0
+          },
+          {
+            "name": "Chorizo & Eggs",
+            "extra": 0
+          },
+          {
+            "name": "Huevos a La Mexicana",
+            "extra": 0
+          },
+          {
+            "name": "Steak",
+            "extra": 0
+          },
+          {
+            "name": "Steak & Eggs",
+            "extra": 0
+          },
+          {
+            "name": "Vegetarian with Rice, Mix Greens & Sliced Avocado",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/taco-bar-serves-3-tacos-choice-of-chicken-carne-asada-chorizo/107"
+  },
+  {
+    "id": "50",
+    "slug": "taco-plato",
+    "name": "Taco Plato",
+    "price": 12.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/4BCZ4MO6HAOMPZ4XPWG6UC2X.jpeg",
+    "localImage": "/products/taco-plato.jpeg",
+    "description": "Sizzling Chicken and chorizo taco platter served on a gluten-free corn tortilla with a side of choice of Mexican rice or fresh mix green salad",
+    "options": [
+      {
+        "name": "Side Choice (Taco Plato)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Fresh Mix Green Salad",
+            "extra": 0
+          },
+          {
+            "name": "Mexican Rice",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/taco-plato/50"
+  },
+  {
+    "id": "80",
+    "slug": "the-stockbroker",
+    "name": "The Stockbroker",
+    "price": 9.95,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/5CPEDG6WRDHFH5F2XXTK3A4R.jpeg",
+    "localImage": "/products/the-stockbroker.jpeg",
+    "description": "Cage-free eggs whites, sliced turkey, spinach, and mushrooms served on a plate or a 12&#34; flour tortilla",
+    "options": [
+      {
+        "name": "Preparation",
+        "required": true,
+        "choices": [
+          {
+            "name": "Wrap",
+            "extra": 0
+          },
+          {
+            "name": "Omelette",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/the-stockbroker/80"
+  },
+  {
+    "id": "45",
+    "slug": "torero-breakfast",
+    "name": "Torero Breakfast",
+    "price": 11,
+    "image": null,
+    "description": "Cage-free eggs, steak, guacamole salsa, and Cotija cheese served on a platter or a 12-inch flour tortilla",
+    "options": [
+      {
+        "name": "Serving Preparation Choice",
+        "required": true,
+        "choices": [
+          {
+            "name": "Flour Tortilla (12 Inch)",
+            "extra": 0
+          },
+          {
+            "name": "Plate",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Preparation Addition (Torero Breakfast)",
+        "required": false,
+        "choices": [
+          {
+            "name": "Omelette",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "mexican",
+    "sourceUrl": "https://www.taquitoshop.com/product/torero-breakfast/45"
+  },
+  {
+    "id": "91",
+    "slug": "cheese-omelette",
+    "name": "Cheese Omelette",
+    "price": 9,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/B3NHEXZLQTUM2UCH2PTK4KUN.jpeg",
+    "localImage": "/products/cheese-omelette.jpeg",
+    "description": "Cage-free egg omelette with American cheese includes home-fried potatoes and butter toast",
+    "options": [
+      {
+        "name": "Cheese",
+        "required": true,
+        "choices": [
+          {
+            "name": "American",
+            "extra": 0
+          },
+          {
+            "name": "Cheddar Cheese",
+            "extra": 0
+          },
+          {
+            "name": "Feta Cheese",
+            "extra": 0
+          },
+          {
+            "name": "Mozzarella Cheese",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "omelettes",
+    "sourceUrl": "https://www.taquitoshop.com/product/cheese-omelette/91"
+  },
+  {
+    "id": "97",
+    "slug": "corned-beef-hash-omelette",
+    "name": "Corned Beef Hash Omelette",
+    "price": 12,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/HFVHKKIQAC2XYNZXBYDI6EF7.jpeg",
+    "localImage": "/products/corned-beef-hash-omelette.jpeg",
+    "description": "Cage-Free egg omelette with corn beef, hash served with home-fried potatoes and buttered toast",
+    "options": [],
+    "category": "omelettes",
+    "sourceUrl": "https://www.taquitoshop.com/product/corned-beef-hash-omelette/97"
+  },
+  {
+    "id": "90",
+    "slug": "greek-omelette",
+    "name": "Greek Omelette",
+    "price": 11.99,
+    "image": null,
+    "description": "Cage Free egg omelette with tomatoes ,feta cheese served with home fries and buttered toast",
+    "options": [],
+    "category": "omelettes",
+    "sourceUrl": "https://www.taquitoshop.com/product/greek-omelette/90"
+  },
+  {
+    "id": "106",
+    "slug": "vegetarian-omelette",
+    "name": "Vegetarian Omelette",
+    "price": 10.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/TRKMIVEM4H5QAONXLXENQ64J.jpeg",
+    "localImage": "/products/vegetarian-omelette.jpeg",
+    "description": "Cage-free egg omelette with fresh assorted vegetables and includes home-fried potatoes and buttered toast",
+    "options": [],
+    "category": "omelettes",
+    "sourceUrl": "https://www.taquitoshop.com/product/vegetarian-omelette/106"
+  },
+  {
+    "id": "98",
+    "slug": "western-omelette",
+    "name": "Western Omelette",
+    "price": 10.25,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/TRKMIVEM4H5QAONXLXENQ64J.jpeg",
+    "localImage": "/products/western-omelette.jpeg",
+    "description": "Cage-free egg omelette with grilled onions, peppers, and ham served with home-fried potatoes and buttered toast",
+    "options": [],
+    "category": "omelettes",
+    "sourceUrl": "https://www.taquitoshop.com/product/western-omelette/98"
+  },
+  {
+    "id": "64",
+    "slug": "classic-egg-sandwich",
+    "name": "Classic Egg Sandwich",
+    "price": 2.75,
+    "image": null,
+    "description": "Jumbo fried egg sandwich on a roll",
+    "options": [],
+    "category": "sandwiches",
+    "sourceUrl": "https://www.taquitoshop.com/product/classic-egg-sandwich/64"
+  },
+  {
+    "id": "93",
+    "slug": "classic-nyc-sandwich",
+    "name": "Classic NYC Sandwich",
+    "price": 6.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/7SQZXLZQSY6DANVRW4PHECTJ.jpeg",
+    "localImage": "/products/classic-nyc-sandwich.jpeg",
+    "description": "Bacon, egg, and cheese on a Kaiser roll",
+    "options": [
+      {
+        "name": "Protein (Classic NYC Sandwich)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Crisp Brown Bacon",
+            "extra": 0
+          },
+          {
+            "name": "Grilled Ham",
+            "extra": 0
+          },
+          {
+            "name": "Patty Sausages",
+            "extra": 0
+          },
+          {
+            "name": "Sliced Turkey",
+            "extra": 0
+          },
+          {
+            "name": "Turkey Bacon",
+            "extra": 0
+          }
+        ]
+      },
+      {
+        "name": "Cheese",
+        "required": true,
+        "choices": [
+          {
+            "name": "American",
+            "extra": 0
+          },
+          {
+            "name": "Cheddar Cheese",
+            "extra": 0
+          },
+          {
+            "name": "Feta Cheese",
+            "extra": 0
+          },
+          {
+            "name": "Mozzarella Cheese",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "sandwiches",
+    "sourceUrl": "https://www.taquitoshop.com/product/classic-nyc-sandwich/93"
+  },
+  {
+    "id": "57",
+    "slug": "egg-cheese-sandwich",
+    "name": "Egg & Cheese Sandwich",
+    "price": 5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/54XFVDCCLOBQ4VQ6HC7SB22P.png",
+    "localImage": "/products/egg-cheese-sandwich.png",
+    "description": "Egg and cheese sandwich on a roll",
+    "options": [],
+    "category": "sandwiches",
+    "sourceUrl": "https://www.taquitoshop.com/product/egg-cheese-sandwich/57"
+  },
+  {
+    "id": "37",
+    "slug": "egg-whites-cheese-sandwich",
+    "name": "Egg Whites & Cheese Sandwich",
+    "price": 6.25,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/CEHKGB3B4QVBAXNXYVOYS4VB.jpeg",
+    "localImage": "/products/egg-whites-cheese-sandwich.jpeg",
+    "description": "Egg whites and cheese sandwich on a roll",
+    "options": [
+      {
+        "name": "Preparation Choice (Egg Whites & Cheese Sandwich)",
+        "required": true,
+        "choices": [
+          {
+            "name": "Cheese",
+            "extra": 0
+          },
+          {
+            "name": "Multi-Grain",
+            "extra": 0
+          },
+          {
+            "name": "Regular",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "sandwiches",
+    "sourceUrl": "https://www.taquitoshop.com/product/egg-whites-cheese-sandwich/37"
+  },
+  {
+    "id": "88",
+    "slug": "ham-egg-cheese",
+    "name": "Ham, Egg, & Cheese",
+    "price": 6.75,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/CEHKGB3B4QVBAXNXYVOYS4VB.jpeg",
+    "localImage": "/products/ham-egg-cheese.jpeg",
+    "description": "Ham, egg, and cheese sandwich",
+    "options": [
+      {
+        "name": "Preparation (Ham, Egg, & Cheese)",
+        "required": true,
+        "choices": [
+          {
+            "name": "7 Grain",
+            "extra": 0
+          },
+          {
+            "name": "Regular",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "sandwiches",
+    "sourceUrl": "https://www.taquitoshop.com/product/ham-egg-cheese/88"
+  },
+  {
+    "id": "51",
+    "slug": "ham-egg-cheese-sandwich",
+    "name": "Ham, Egg, & Cheese Sandwich",
+    "price": 6.75,
+    "image": null,
+    "description": "",
+    "options": [
+      {
+        "name": "Preparation Choice (Ham, Egg, & Cheese Sandwich)",
+        "required": true,
+        "choices": [
+          {
+            "name": "7 Grain",
+            "extra": 0
+          },
+          {
+            "name": "Regular",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "sandwiches",
+    "sourceUrl": "https://www.taquitoshop.com/product/ham-egg-cheese-sandwich/51"
+  },
+  {
+    "id": "59",
+    "slug": "turkey-bacon-egg-sandwich",
+    "name": "Turkey Bacon & Egg Sandwich",
+    "price": 6.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/7SQZXLZQSY6DANVRW4PHECTJ.jpeg",
+    "localImage": "/products/turkey-bacon-egg-sandwich.jpeg",
+    "description": "",
+    "options": [
+      {
+        "name": "Preparation Choice (Turkey Bacon & Egg Sandwich)",
+        "required": true,
+        "choices": [
+          {
+            "name": "7 Grain",
+            "extra": 0
+          },
+          {
+            "name": "Regular",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "sandwiches",
+    "sourceUrl": "https://www.taquitoshop.com/product/turkey-bacon-egg-sandwich/59"
+  },
+  {
+    "id": "47",
+    "slug": "turkey-egg-cheese-sandwich",
+    "name": "Turkey, Egg, & Cheese Sandwich",
+    "price": 6.75,
+    "image": null,
+    "description": "Sliced turkey, egg, and cheese sandwich on a kaiser roll",
+    "options": [
+      {
+        "name": "Preparation Choice (Turkey, Egg, & Cheese Sandwich)",
+        "required": true,
+        "choices": [
+          {
+            "name": "7 Grain",
+            "extra": 0
+          },
+          {
+            "name": "Regular",
+            "extra": 0
+          },
+          {
+            "name": "Wrap",
+            "extra": 0
+          }
+        ]
+      }
+    ],
+    "category": "sandwiches",
+    "sourceUrl": "https://www.taquitoshop.com/product/turkey-egg-cheese-sandwich/47"
+  },
+  {
+    "id": "116",
+    "slug": "chicken-tenders-basket",
+    "name": "Chicken Tenders Basket",
+    "price": 10.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/ARSWRWEMD7SLMWSAGQRUNJWH.jpeg",
+    "localImage": "/products/chicken-tenders-basket.jpeg",
+    "description": "Hand breaded, chicken tenders with a crisp, seasoned fries and honey mustard",
+    "options": [],
+    "category": "sides",
+    "sourceUrl": "https://www.taquitoshop.com/product/chicken-tenders-basket/116"
+  },
+  {
+    "id": "114",
+    "slug": "golden-onion-rings",
+    "name": "Golden Onion Rings",
+    "price": 4.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/UM7UMRLWKAX2JMGLE7QZCZQY.jpeg",
+    "localImage": "/products/golden-onion-rings.jpeg",
+    "description": "Golden crisp onion rings",
+    "options": [],
+    "category": "sides",
+    "sourceUrl": "https://www.taquitoshop.com/product/golden-onion-rings/114"
+  },
+  {
+    "id": "113",
+    "slug": "golden-tater-tots",
+    "name": "Golden Tater Tots",
+    "price": 5.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/BC25DTO3WIZBHQHKXU4OPACE.png",
+    "localImage": "/products/golden-tater-tots.png",
+    "description": "",
+    "options": [],
+    "category": "sides",
+    "sourceUrl": "https://www.taquitoshop.com/product/golden-tater-tots/113"
+  },
+  {
+    "id": "118",
+    "slug": "home-fries-potatoes",
+    "name": "Home Fries Potatoes",
+    "price": 5.99,
+    "image": null,
+    "description": "Seasoned home fried potatoes with grilled onions and peppers",
+    "options": [],
+    "category": "sides",
+    "sourceUrl": "https://www.taquitoshop.com/product/home-fries-potatoes/118"
+  },
+  {
+    "id": "112",
+    "slug": "homemade-guacamole-dip",
+    "name": "Homemade Guacamole Dip",
+    "price": 8.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/VYFOJYSLZN65USQBLT65HWFA.png",
+    "localImage": "/products/homemade-guacamole-dip.png",
+    "description": "A delicious 6 oz homemade guacamole dip served with a side of tortilla chips",
+    "options": [],
+    "category": "sides",
+    "sourceUrl": "https://www.taquitoshop.com/product/homemade-guacamole-dip/112"
+  },
+  {
+    "id": "115",
+    "slug": "seasoned-crisp-fries",
+    "name": "Seasoned Crisp Fries",
+    "price": 4.99,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/JMYIPYJZPPGAQQ24L743RXOT.jpeg",
+    "localImage": "/products/seasoned-crisp-fries.jpeg",
+    "description": "Our seasoned, golden crisp, fries",
+    "options": [],
+    "category": "sides",
+    "sourceUrl": "https://www.taquitoshop.com/product/seasoned-crisp-fries/115"
+  },
+  {
+    "id": "117",
+    "slug": "tortilla-chips-snack",
+    "name": "Tortilla Chips Snack",
+    "price": 5.5,
+    "image": "https://131826192.cdn6.editmysite.com/uploads/1/3/1/8/131826192/RUKBOKUMSCK3PT2RYYJBCLFO.jpeg",
+    "localImage": "/products/tortilla-chips-snack.jpeg",
+    "description": "Delicious Mexican snack tortilla chips served with homemade guacamole salsa Mexican crema on the side",
+    "options": [],
+    "category": "sides",
+    "sourceUrl": "https://www.taquitoshop.com/product/tortilla-chips-snack/117"
+  }
+]

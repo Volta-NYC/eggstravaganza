@@ -1,10 +1,35 @@
 import "./globals.css"
+import { Fraunces, Inter } from "next/font/google"
 import Navbar from "@/lib/components/navbar"
 import Footer from "@/lib/components/footer"
+import Providers from "@/lib/components/providers"
+import { business } from "@/lib/business"
+
+const display = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-display",
+  weight: ["500", "600", "700", "900"],
+  display: "swap",
+})
+const body = Inter({
+  subsets: ["latin"],
+  variable: "--font-body",
+  display: "swap",
+})
 
 export const metadata = {
-  title: "Business Name",
-  description: "Short description of the business."
+  title: {
+    default: `${business.name} — ${business.tagline}`,
+    template: `%s · ${business.name}`,
+  },
+  description:
+    "Eggstravaganza is a Sunnyside, NY kitchen serving all-day breakfast, Mexican classics, sandwiches, omelettes and griddle plates. Pickup or local delivery.",
+  metadataBase: new URL("https://eggstravaganza.example.com"),
+  openGraph: {
+    title: `${business.name} — ${business.tagline}`,
+    description: "All-day breakfast & Mexican kitchen in Sunnyside, NY.",
+    type: "website",
+  },
 }
 
 export default function RootLayout({
@@ -13,13 +38,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen flex flex-col">
-        <Navbar />
-        <main className="flex-1 max-w-6xl mx-auto px-6 py-12">
-          {children}
-        </main>
-        <Footer />
+    <html lang="en" className={`${display.variable} ${body.variable}`}>
+      <body className="min-h-screen flex flex-col paper">
+        <Providers>
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   )
