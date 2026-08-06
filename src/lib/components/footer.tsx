@@ -134,12 +134,12 @@ export default function Footer() {
           <div className="flex gap-5">
             <span className="text-white/60">{business.website}</span>
             <Link
-              href="https://nyc.voltanpo.org"
+              href="https://www.novusnyc.org/"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-white"
+              className="text-[#F6B78D] hover:text-[#F6B78D]"
             >
-              Site by @VoltaNYC
+              Made by Novus
             </Link>
           </div>
         </div>
