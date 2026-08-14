@@ -21,7 +21,7 @@ export default function HomePage() {
             <Reveal>
               <span className="chip chip-lime">
                 <span className="h-1.5 w-1.5 rounded-full bg-black" />
-                Sunnyside, NY · Open today
+                Established {business.establishedYear} · Sunnyside, NY
               </span>
             </Reveal>
             <Reveal delay={80}>
@@ -64,7 +64,7 @@ export default function HomePage() {
                 <Stat n="76" l="Real dishes" />
                 <div className="h-12 w-px bg-white/15 hidden sm:block" />
                 <div className="hidden sm:block">
-                  <Stat n="6 AM" l="Doors open" />
+                  <Stat n={business.establishedYear} l="Established" />
                 </div>
               </div>
             </Reveal>

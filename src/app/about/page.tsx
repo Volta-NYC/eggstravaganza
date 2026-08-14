@@ -15,7 +15,9 @@ export default function AboutPage() {
         <div className="absolute inset-0 grid-bg opacity-30" />
         <div className="relative max-w-5xl mx-auto px-5 sm:px-8 py-24 lg:py-32 text-center">
           <Reveal>
-            <span className="chip chip-lime">Since the morning crowd started lining up</span>
+            <span className="chip chip-lime">
+              Established {business.establishedYear}
+            </span>
           </Reveal>
           <Reveal delay={80}>
             <h1 className="mt-6 font-display text-5xl sm:text-7xl tracking-tight leading-[0.95] text-white">

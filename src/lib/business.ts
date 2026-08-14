@@ -3,6 +3,7 @@ export const business = {
   legalName: "Eggstravaganza Corp.",
   tagline: "Mexican Cuisine",
   subtagline: "All-day breakfast & Mexican kitchen in Sunnyside, NY",
+  establishedYear: "2006",
   location: {
     street: "4120 39th St",
     city: "Sunnyside",

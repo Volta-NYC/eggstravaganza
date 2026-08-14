@@ -12,11 +12,13 @@ export default function Footer() {
             <div key={i} className="flex shrink-0 items-center gap-10 px-5">
               <span>·Cage-free eggs</span>
               <span>·Hand-pressed tortillas</span>
+              <span>·Established {business.establishedYear}</span>
               <span>·Open at 6 AM weekdays</span>
               <span>·Order on DoorDash</span>
               <span>·Sunnyside, NY</span>
               <span>·Cage-free eggs</span>
               <span>·Hand-pressed tortillas</span>
+              <span>·Established {business.establishedYear}</span>
               <span>·Open at 6 AM weekdays</span>
               <span>·Order on DoorDash</span>
               <span>·Sunnyside, NY</span>
