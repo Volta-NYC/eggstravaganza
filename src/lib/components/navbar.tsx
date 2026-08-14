@@ -28,8 +28,8 @@ export default function Navbar() {
     <nav
       className={`sticky top-0 z-40 w-full transition-all duration-300 ${
         scrolled
-          ? "bg-[#241007]/95 backdrop-blur border-b border-white/20 shadow-[0_12px_30px_rgba(0,0,0,0.28)]"
-          : "bg-[#241007]/82 backdrop-blur-md border-b border-white/15 shadow-[0_10px_28px_rgba(0,0,0,0.2)]"
+          ? "bg-[#160904]/98 backdrop-blur border-b border-white/30 shadow-[0_14px_34px_rgba(0,0,0,0.36)]"
+          : "bg-[#160904]/96 backdrop-blur border-b border-white/25 shadow-[0_12px_32px_rgba(0,0,0,0.32)]"
       }`}
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-8 h-20 flex items-center justify-between gap-4">
@@ -45,28 +45,28 @@ export default function Navbar() {
             />
           </span>
           <span className="hidden sm:flex flex-col leading-tight">
-            <span className="font-display text-2xl text-white">
+            <span className="font-display text-2xl text-white drop-shadow-[0_2px_2px_rgba(0,0,0,0.65)]">
               Eggstravaganza
             </span>
-            <span className="text-[10px] font-bold tracking-[0.25em] text-[color:var(--lime)] uppercase">
+            <span className="text-[10px] font-black tracking-[0.25em] text-[color:var(--lime)] uppercase drop-shadow-[0_1px_1px_rgba(0,0,0,0.75)]">
               Mexican Cuisine
             </span>
           </span>
         </Link>
 
-        <div className="hidden md:flex items-center gap-7 text-sm font-semibold">
+        <div className="hidden md:flex items-center gap-6 text-sm font-extrabold">
           {navItems.map((n) => (
             <Link
               key={n.href}
               href={n.href}
-              className="text-white hover:text-[color:var(--pink-2)] transition-colors"
+              className="rounded-full px-2 py-1 text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.75)] hover:bg-white/10 hover:text-[color:var(--pink-2)] transition-colors"
             >
               {n.label}
             </Link>
           ))}
           <a
             href={business.phoneHref}
-            className="text-[color:var(--lime)] hover:text-[color:var(--lime-2)] transition-colors tabular-nums hidden lg:inline"
+            className="rounded-full bg-black/30 px-3 py-1.5 text-[color:var(--lime)] ring-1 ring-white/15 hover:text-[color:var(--lime-2)] transition-colors tabular-nums hidden lg:inline"
           >
             {business.phone}
           </a>
@@ -108,7 +108,7 @@ export default function Navbar() {
                 key={n.href}
                 href={n.href}
                 onClick={() => setOpen(false)}
-                className="py-3 text-white/90 hover:text-[color:var(--pink-2)]"
+                className="py-3 text-white font-extrabold hover:text-[color:var(--pink-2)]"
               >
                 {n.label}
               </Link>
