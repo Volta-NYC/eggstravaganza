@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { business } from "@/lib/business"
+import ContactForm from "@/lib/components/contact-form"
 import Reveal from "@/lib/components/reveal"
 
 export const metadata = { title: "Catering" }
@@ -37,7 +38,7 @@ export default function CateringPage() {
           <Reveal delay={240}>
             <div className="mt-9 flex flex-wrap gap-3">
               <Link
-                href="/contact#contact-form"
+                href="#contact-form"
                 className="btn-primary inline-flex rounded-full px-7 py-3.5 text-base"
               >
                 Fill out the form →
@@ -86,6 +87,26 @@ export default function CateringPage() {
               </div>
             ))}
           </div>
+        </Reveal>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-5 sm:px-8 pb-20 grid lg:grid-cols-[0.8fr_1.2fr] gap-8 items-start">
+        <Reveal variant="left">
+          <div className="rounded-[24px] border-4 border-white bg-[color:var(--lime)] p-7 text-black shadow-[0_14px_0_rgba(0,0,0,0.24)]">
+            <div className="text-[10px] uppercase tracking-[0.22em] font-black">
+              Start here
+            </div>
+            <h2 className="mt-2 font-display text-3xl leading-none">
+              Fill out the form for catering.
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-black/70">
+              Include your event date, guest count, timing, and menu ideas. The
+              team will use those details to follow up.
+            </p>
+          </div>
+        </Reveal>
+        <Reveal variant="right">
+          <ContactForm />
         </Reveal>
       </section>
     </div>
