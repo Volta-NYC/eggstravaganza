@@ -102,12 +102,12 @@ export default function AboutPage() {
             },
             {
               title: "Two menus, one ticket",
-              body: "Order a breakfast taco and a chicken sandwich on the same check. The line cooks share the counter.",
+              body: "Pair a breakfast taco with a chicken sandwich. The line cooks share the counter.",
               accent: "chip-lime",
             },
             {
               title: "Made for the neighborhood",
-              body: "Sunnyside-paced service. Pickup in minutes, local delivery to your block.",
+              body: "Sunnyside-paced service at the counter, with DoorDash pickup and delivery online.",
               accent: "chip-teal",
             },
           ].map((v, i) => (

@@ -41,17 +41,19 @@ export default function HomePage() {
               <div className="mt-9 flex flex-wrap gap-3">
                 <Link
                   href="/menu"
-                  className="btn-primary inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-base"
-                >
-                  Start an order
-                  <span aria-hidden>→</span>
-                </Link>
-                <Link
-                  href="/about"
                   className="btn-ghost inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-base"
                 >
-                  Our story
+                  See the menu
+                  <span aria-hidden>→</span>
                 </Link>
+                <a
+                  href={business.orderUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn-primary inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-base"
+                >
+                  DoorDash
+                </a>
               </div>
             </Reveal>
 
@@ -265,8 +267,8 @@ export default function HomePage() {
               Find us on 39th Street
             </h2>
             <p className="mt-3 text-white/70 leading-relaxed">
-              {business.location.full}. Pickup or local delivery — order ahead
-              and skip the line.
+              {business.location.full}. Browse the menu here, then use DoorDash
+              for pickup or delivery.
             </p>
             <a
               href={business.phoneHref}
@@ -293,8 +295,8 @@ export default function HomePage() {
                   Service
                 </h3>
                 <ul className="text-sm space-y-1.5 text-white/80">
-                  <li>• Pickup at the counter</li>
-                  <li>• Local delivery in Sunnyside</li>
+                  <li>• Walk-in at the counter</li>
+                  <li>• DoorDash pickup & delivery</li>
                   <li>• Group platters & catering</li>
                 </ul>
               </div>
@@ -305,14 +307,17 @@ export default function HomePage() {
           <div className="card p-8 lg:p-10 h-full bg-gradient-to-br from-[color:var(--pink)] to-[color:var(--orange)] border-white">
             <h3 className="font-display text-3xl leading-tight text-white">Skip the line.</h3>
             <p className="mt-2 text-white/90 leading-relaxed">
-              Order online, pick up your bag in minutes.
+              DoorDash handles pickup and delivery when you want Eggstravaganza
+              brought to you.
             </p>
-            <Link
-              href="/menu"
+            <a
+              href={business.orderUrl}
+              target="_blank"
+              rel="noreferrer"
               className="mt-6 inline-flex items-center gap-2 rounded-full bg-white text-black px-6 py-3 text-sm font-bold border-2 border-white hover:bg-[color:var(--lime)] transition-colors"
             >
-              Start an order →
-            </Link>
+              Order on DoorDash →
+            </a>
             <div className="mt-8 flex items-center gap-3">
               <span className="h-12 w-12 rounded-full bg-white grid place-items-center text-[color:var(--pink)] font-bold border-2 border-white">f</span>
               <span className="h-12 w-12 rounded-full bg-white grid place-items-center text-[color:var(--pink)] font-bold border-2 border-white">○</span>

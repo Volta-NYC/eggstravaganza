@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import { MenuItem, priceDisplay } from "@/lib/menu"
 
 const CATEGORY_ACCENT: Record<string, string> = {
@@ -19,10 +18,7 @@ const CATEGORY_ACCENT: Record<string, string> = {
 export default function MenuCard({ item }: { item: MenuItem }) {
   const accent = CATEGORY_ACCENT[item.category] ?? CATEGORY_ACCENT.specials
   return (
-    <Link
-      href={`/menu/${item.slug}`}
-      className="card group flex flex-col overflow-hidden cursor-pointer"
-    >
+    <article className="card group flex flex-col overflow-hidden">
       <div
         className={`relative aspect-[4/3] w-full overflow-hidden bg-gradient-to-br ${accent}`}
       >
@@ -55,10 +51,12 @@ export default function MenuCard({ item }: { item: MenuItem }) {
         )}
         <div className="mt-auto pt-4 flex items-center justify-between text-xs">
           <span className="text-white/40 uppercase tracking-widest">{item.category}</span>
-          <span className="text-[color:var(--lime)] font-bold">View →</span>
+          <span className="text-[color:var(--lime)] font-bold">
+            {priceDisplay(item.price)}
+          </span>
         </div>
       </div>
-    </Link>
+    </article>
   )
 }
 

@@ -2,7 +2,6 @@ import "./globals.css"
 import { Fraunces, Inter } from "next/font/google"
 import Navbar from "@/lib/components/navbar"
 import Footer from "@/lib/components/footer"
-import Providers from "@/lib/components/providers"
 import { business } from "@/lib/business"
 
 const display = Fraunces({
@@ -23,7 +22,7 @@ export const metadata = {
     template: `%s · ${business.name}`,
   },
   description:
-    "Eggstravaganza is a Sunnyside, NY kitchen serving all-day breakfast, Mexican classics, sandwiches, omelettes and griddle plates. Pickup or local delivery.",
+    "Eggstravaganza is a Sunnyside, NY kitchen serving all-day breakfast, Mexican classics, sandwiches, omelettes and griddle plates. Order on DoorDash or visit the counter.",
   metadataBase: new URL("https://eggstravaganza.example.com"),
   openGraph: {
     title: `${business.name} — ${business.tagline}`,
@@ -40,11 +39,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body className="min-h-screen flex flex-col paper">
-        <Providers>
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </Providers>
+        <Navbar />
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   )

@@ -13,12 +13,12 @@ export default function Footer() {
               <span>·Cage-free eggs</span>
               <span>·Hand-pressed tortillas</span>
               <span>·Open at 6 AM weekdays</span>
-              <span>·Pickup & local delivery</span>
+              <span>·Order on DoorDash</span>
               <span>·Sunnyside, NY</span>
               <span>·Cage-free eggs</span>
               <span>·Hand-pressed tortillas</span>
               <span>·Open at 6 AM weekdays</span>
-              <span>·Pickup & local delivery</span>
+              <span>·Order on DoorDash</span>
               <span>·Sunnyside, NY</span>
             </div>
           ))}
@@ -48,12 +48,14 @@ export default function Footer() {
             A neighborhood kitchen in Sunnyside, NY serving all-day breakfast and
             Mexican classics — cooked to order, served at the counter.
           </p>
-          <Link
-            href="/menu"
+          <a
+            href={business.orderUrl}
+            target="_blank"
+            rel="noreferrer"
             className="btn-primary mt-6 inline-flex rounded-full px-6 py-3 text-sm"
           >
-            Start an order →
-          </Link>
+            Order on DoorDash →
+          </a>
         </div>
 
         <div className="md:col-span-3">
@@ -90,7 +92,16 @@ export default function Footer() {
             <li><Link href="/about" className="hover:text-[color:var(--pink-2)]">Our story</Link></li>
             <li><Link href="/visit" className="hover:text-[color:var(--pink-2)]">Visit & hours</Link></li>
             <li><Link href="/contact" className="hover:text-[color:var(--pink-2)]">Contact</Link></li>
-            <li><Link href="/cart" className="hover:text-[color:var(--pink-2)]">Your bag</Link></li>
+            <li>
+              <a
+                href={business.orderUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-[color:var(--pink-2)]"
+              >
+                DoorDash
+              </a>
+            </li>
           </ul>
         </div>
 

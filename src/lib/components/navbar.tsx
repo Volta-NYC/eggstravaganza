@@ -4,7 +4,6 @@ import Link from "next/link"
 import Image from "next/image"
 import { useEffect, useState } from "react"
 import { business } from "@/lib/business"
-import { useCart } from "@/lib/cart/store"
 
 const navItems = [
   { href: "/menu", label: "Menu" },
@@ -16,7 +15,6 @@ const navItems = [
 export default function Navbar() {
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const { count, openDrawer } = useCart()
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12)
@@ -71,11 +69,26 @@ export default function Navbar() {
           >
             {business.phone}
           </a>
-          <CartButton count={count} onOpen={openDrawer} />
+          <a
+            href={business.orderUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="btn-primary inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm"
+          >
+            DoorDash
+            <span aria-hidden>→</span>
+          </a>
         </div>
 
         <div className="md:hidden flex items-center gap-2">
-          <CartButton count={count} onOpen={openDrawer} compact />
+          <a
+            href={business.orderUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="btn-primary inline-flex h-11 items-center rounded-full px-4 text-xs"
+          >
+            Order
+          </a>
           <button
             onClick={() => setOpen((o) => !o)}
             className="inline-flex h-11 w-11 items-center justify-center rounded-full border-2 border-white/30 text-white"
@@ -109,45 +122,5 @@ export default function Navbar() {
         </div>
       )}
     </nav>
-  )
-}
-
-function CartButton({
-  count,
-  onOpen,
-  compact,
-}: {
-  count: number
-  onOpen: () => void
-  compact?: boolean
-}) {
-  return (
-    <button
-      onClick={onOpen}
-      className={`btn-primary relative inline-flex items-center gap-2 rounded-full ${
-        compact ? "h-11 w-11 justify-center text-base" : "px-5 py-2.5 text-sm"
-      }`}
-      aria-label={`Open cart (${count} items)`}
-    >
-      <svg
-        aria-hidden
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2.4"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="h-4 w-4"
-      >
-        <path d="M6 7h12l-1.2 11a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7Z" />
-        <path d="M9 7V5a3 3 0 0 1 6 0v2" />
-      </svg>
-      {!compact && <span>Bag</span>}
-      {count > 0 && (
-        <span className="absolute -top-2 -right-2 min-w-[22px] h-[22px] px-1 rounded-full bg-[color:var(--lime)] text-black text-[11px] font-bold grid place-items-center border-2 border-black">
-          {count}
-        </span>
-      )}
-    </button>
   )
 }

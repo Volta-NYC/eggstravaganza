@@ -12,7 +12,8 @@ export const business = {
   phone: "929-688-1513",
   phoneHref: "tel:+19296881513",
   website: "taquitoshop.com",
-  orderUrl: "/menu",
+  orderUrl:
+    "https://www.doordash.com/store/eggstravaganza-mexican-cuisine-queens-24944751/81588762/?srsltid=AfmBOooZR-EPiCIA248y-SxOyb4FEw-hxylLxLJ--EZf4ee4XrhC3sJS",
   socials: {
     facebook: "https://facebook.com/eggstravaganza",
     instagram: "https://instagram.com/eggstravaganza",

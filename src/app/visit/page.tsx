@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { business } from "@/lib/business"
 import Reveal from "@/lib/components/reveal"
 
@@ -22,8 +21,8 @@ export default function VisitPage() {
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-5 max-w-xl text-white/70 leading-relaxed text-lg">
-              Pickup, local delivery, or pull up a chair — find us on 39th Street
-              in Sunnyside.
+              Pull up a chair on 39th Street, or use DoorDash for pickup and
+              delivery.
             </p>
           </Reveal>
         </div>
@@ -85,16 +84,18 @@ export default function VisitPage() {
             </h2>
             <ul className="mt-3 space-y-1.5 text-white/80 text-sm">
               <li>• Walk-in at the counter</li>
-              <li>• Online order — pickup</li>
-              <li>• Local delivery within Sunnyside</li>
+              <li>• DoorDash pickup</li>
+              <li>• DoorDash delivery</li>
               <li>• Group platters & catering on request</li>
             </ul>
-            <Link
-              href="/menu"
+            <a
+              href={business.orderUrl}
+              target="_blank"
+              rel="noreferrer"
               className="btn-primary mt-5 inline-flex rounded-full px-6 py-3 text-sm"
             >
-              Start an order →
-            </Link>
+              Order on DoorDash →
+            </a>
           </div>
         </Reveal>
 
