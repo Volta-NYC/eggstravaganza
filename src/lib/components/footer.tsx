@@ -91,6 +91,7 @@ export default function Footer() {
           </h4>
           <ul className="text-sm space-y-2 text-white/80">
             <li><Link href="/menu" className="hover:text-[color:var(--pink-2)]">Full menu</Link></li>
+            <li><Link href="/catering" className="hover:text-[color:var(--pink-2)]">Catering</Link></li>
             <li><Link href="/about" className="hover:text-[color:var(--pink-2)]">Our story</Link></li>
             <li><Link href="/visit" className="hover:text-[color:var(--pink-2)]">Visit & hours</Link></li>
             <li><Link href="/contact" className="hover:text-[color:var(--pink-2)]">Contact</Link></li>

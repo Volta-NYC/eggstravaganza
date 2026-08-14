@@ -7,6 +7,7 @@ import { business } from "@/lib/business"
 
 const navItems = [
   { href: "/menu", label: "Menu" },
+  { href: "/catering", label: "Catering" },
   { href: "/about", label: "Our Story" },
   { href: "/visit", label: "Visit" },
   { href: "/contact", label: "Contact" },
