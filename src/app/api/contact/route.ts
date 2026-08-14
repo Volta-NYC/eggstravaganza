@@ -6,6 +6,17 @@ export const runtime = "nodejs"
 
 type ContactPayload = { name?: unknown; email?: unknown; phone?: unknown; topic?: unknown; "event-date"?: unknown; "guest-count"?: unknown; message?: unknown }
 const stringValue = (value: unknown) => typeof value === "string" ? value.trim() : ""
+const easternTimestamp = (date: Date) => new Intl.DateTimeFormat("en-US", {
+  timeZone: "America/New_York",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+  hour: "2-digit",
+  minute: "2-digit",
+  second: "2-digit",
+  hour12: true,
+  timeZoneName: "short",
+}).format(date)
 
 export async function POST(request: Request) {
   let body: ContactPayload
@@ -36,7 +47,7 @@ export async function POST(request: Request) {
       spreadsheetId,
       range: "Sheet1!A:H",
       valueInputOption: "USER_ENTERED",
-      requestBody: { values: [[new Date().toISOString(), name, email, phone, topic, eventDate, guestCount, message]] },
+      requestBody: { values: [[easternTimestamp(new Date()), name, email, phone, topic, eventDate, guestCount, message]] },
     })
   } catch (error) {
     console.error("Unable to append contact submission to Google Sheets.", error)
