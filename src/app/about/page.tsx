@@ -115,7 +115,7 @@ export default function AboutPage() {
           ].map((v, i) => (
             <Reveal key={v.title} delay={i * 90}>
               <div className="card p-7 h-full">
-                <span className={`chip ${v.accent}`}>0{i + 1}</span>
+                <span className={`chip ${v.accent}`}>{i + 1}</span>
                 <h3 className="mt-4 font-display text-2xl text-white">{v.title}</h3>
                 <p className="mt-2 text-white/65 leading-relaxed">{v.body}</p>
               </div>

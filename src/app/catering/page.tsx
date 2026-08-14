@@ -79,7 +79,7 @@ export default function CateringPage() {
                 className="rounded-[22px] border-2 border-white bg-white p-5 text-black shadow-[0_12px_0_rgba(0,0,0,0.18)]"
               >
                 <div className="text-[10px] uppercase tracking-[0.22em] font-black text-[color:var(--pink)]">
-                  0{index + 1}
+                  {index + 1}
                 </div>
                 <p className="mt-2 font-display text-2xl leading-tight">
                   {item}
