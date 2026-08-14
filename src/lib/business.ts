@@ -26,5 +26,14 @@ export const business = {
   ],
   press: [
     { quote: "Formidable breakfast tacos.", source: "NY Eater" },
+    {
+      title:
+        "Eating along the M line: Hidden gems are worth the wait at the Lexington Ave/53rd St. stop",
+      source: "New York Daily News",
+      date: "Nov. 17, 2013",
+      url: "https://www.nydailynews.com/2013/11/17/eating-along-the-m-line-hidden-gems-are-worth-the-wait-at-the-lexington-ave53rd-st-stop/",
+      summary:
+        "A neighborhood press nod from the Daily News' M-line food crawl.",
+    },
   ],
 } as const

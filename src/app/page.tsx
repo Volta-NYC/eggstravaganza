@@ -203,6 +203,41 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* PRESS */}
+      <section className="max-w-7xl mx-auto px-5 sm:px-8 mt-24">
+        <Reveal>
+          <div className="rounded-[28px] border-4 border-white bg-[color:var(--teal)] p-7 sm:p-10 text-white shadow-[0_22px_0_rgba(0,0,0,0.28)]">
+            <div className="grid gap-8 lg:grid-cols-[0.75fr_1.25fr] lg:items-center">
+              <div>
+                <span className="chip chip-lime">In the news</span>
+                <h2 className="mt-4 font-display text-3xl sm:text-5xl leading-none">
+                  A hidden gem along the M line.
+                </h2>
+              </div>
+              <div>
+                <p className="text-sm uppercase tracking-[0.22em] font-black text-white/70">
+                  {business.press[1].source} · {business.press[1].date}
+                </p>
+                <h3 className="mt-3 font-display text-2xl sm:text-3xl leading-tight">
+                  {business.press[1].title}
+                </h3>
+                <p className="mt-4 text-white/80 leading-relaxed">
+                  {business.press[1].summary}
+                </p>
+                <a
+                  href={business.press[1].url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-6 inline-flex rounded-full border-2 border-white bg-white px-6 py-3 text-sm font-bold text-black hover:bg-[color:var(--lime)] transition-colors"
+                >
+                  Read the article →
+                </a>
+              </div>
+            </div>
+          </div>
+        </Reveal>
+      </section>
+
       {/* STORY STRIP */}
       <section className="mt-28 relative overflow-hidden">
         <div className="absolute inset-0 confetti opacity-50" />
