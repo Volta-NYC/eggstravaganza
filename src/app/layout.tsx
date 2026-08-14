@@ -1,5 +1,6 @@
 import "./globals.css"
 import { Fraunces, Inter } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
 import Navbar from "@/lib/components/navbar"
 import Footer from "@/lib/components/footer"
 import { business } from "@/lib/business"
@@ -47,6 +48,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )
