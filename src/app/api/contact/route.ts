@@ -1,9 +1,9 @@
 import { google } from "googleapis"
 import { NextResponse } from "next/server"
+import { validateContact } from "@/lib/contact-validation"
 
 export const runtime = "nodejs"
 
-const topics = new Set(["Catering", "Large order", "Press", "General question"])
 type ContactPayload = { name?: unknown; email?: unknown; phone?: unknown; topic?: unknown; "event-date"?: unknown; "guest-count"?: unknown; message?: unknown }
 const stringValue = (value: unknown) => typeof value === "string" ? value.trim() : ""
 
@@ -18,19 +18,7 @@ export async function POST(request: Request) {
   const eventDate = stringValue(body["event-date"])
   const guestCount = stringValue(body["guest-count"])
   const message = stringValue(body.message)
-  const errors: Record<string, string> = {}
-
-  if (!name) errors.name = "Please enter your name."
-  else if (name.length > 100) errors.name = "Your name must be 100 characters or fewer."
-  if (!email) errors.email = "Please enter your email address."
-  else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) errors.email = "Please enter a valid email address."
-  else if (email.length > 254) errors.email = "Your email address is too long."
-  if (phone.length > 50) errors.phone = "Your phone number must be 50 characters or fewer."
-  if (!topics.has(topic)) errors.topic = "Please choose a valid topic."
-  if (eventDate && !/^\d{4}-\d{2}-\d{2}$/.test(eventDate)) errors.eventDate = "Please enter a valid event date."
-  if (guestCount && (!/^\d+$/.test(guestCount) || Number(guestCount) < 1 || Number(guestCount) > 100000)) errors.guestCount = "Guest count must be a whole number between 1 and 100,000."
-  if (!message) errors.message = "Please enter a message."
-  else if (message.length > 5000) errors.message = "Your message must be 5,000 characters or fewer."
+  const errors = validateContact({ name, email, phone, topic, eventDate, guestCount, message })
   if (Object.keys(errors).length) return NextResponse.json({ errors }, { status: 400 })
 
   const spreadsheetId = process.env.GOOGLE_SHEETS_SPREADSHEET_ID
