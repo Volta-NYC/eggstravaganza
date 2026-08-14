@@ -28,8 +28,8 @@ export default function Navbar() {
     <nav
       className={`sticky top-0 z-40 w-full transition-all duration-300 ${
         scrolled
-          ? "bg-black/85 backdrop-blur border-b border-white/10"
-          : "bg-transparent"
+          ? "bg-[#241007]/95 backdrop-blur border-b border-white/20 shadow-[0_12px_30px_rgba(0,0,0,0.28)]"
+          : "bg-[#241007]/82 backdrop-blur-md border-b border-white/15 shadow-[0_10px_28px_rgba(0,0,0,0.2)]"
       }`}
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-8 h-20 flex items-center justify-between gap-4">
@@ -59,7 +59,7 @@ export default function Navbar() {
             <Link
               key={n.href}
               href={n.href}
-              className="text-white/80 hover:text-[color:var(--pink-2)] transition-colors"
+              className="text-white hover:text-[color:var(--pink-2)] transition-colors"
             >
               {n.label}
             </Link>
@@ -101,7 +101,7 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="md:hidden border-t border-white/10 bg-black">
+        <div className="md:hidden border-t border-white/15 bg-[#241007]/98 shadow-2xl">
           <div className="max-w-7xl mx-auto px-5 py-4 flex flex-col gap-1 text-base font-semibold">
             {navItems.map((n) => (
               <Link
