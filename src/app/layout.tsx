@@ -39,8 +39,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body className="min-h-screen flex flex-col paper">
+        <a href="#main-content" className="skip-link">
+          Skip to main content
+        </a>
         <Navbar />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" tabIndex={-1} className="flex-1">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

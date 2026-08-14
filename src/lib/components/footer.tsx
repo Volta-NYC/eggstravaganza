@@ -7,7 +7,10 @@ export default function Footer() {
     <footer className="relative mt-24 border-t border-white/10 bg-black overflow-hidden">
       {/* Marquee */}
       <div className="bg-[color:var(--pink)] text-white border-y-2 border-white overflow-hidden">
-        <div className="flex marquee whitespace-nowrap py-3 font-display text-xl uppercase tracking-wide">
+        <div
+          className="flex marquee whitespace-nowrap py-3 font-display text-xl uppercase tracking-wide"
+          aria-hidden="true"
+        >
           {Array.from({ length: 2 }).map((_, i) => (
             <div key={i} className="flex shrink-0 items-center gap-10 px-5">
               <span>·Cage-free eggs</span>

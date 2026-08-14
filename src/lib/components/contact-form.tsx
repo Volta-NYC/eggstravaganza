@@ -1,6 +1,10 @@
 import { business } from "@/lib/business"
 
 export default function ContactForm({ id = "contact-form" }: { id?: string }) {
+  const instructionsId = `${id}-instructions`
+  const topicId = `${id}-topic`
+  const messageId = `${id}-message`
+
   return (
     <form
       id={id}
@@ -8,27 +12,33 @@ export default function ContactForm({ id = "contact-form" }: { id?: string }) {
       action="mailto:hello@eggstravaganza.example.com"
       method="post"
       encType="text/plain"
+      aria-describedby={instructionsId}
     >
       <div>
         <span className="chip chip-lime">Contact form</span>
         <h2 className="mt-3 font-display text-3xl text-white">
           Tell us what you need.
         </h2>
-        <p className="mt-2 text-sm leading-relaxed text-white/60">
+        <p id={instructionsId} className="mt-2 text-sm leading-relaxed text-white/60">
           For catering, include the event date, pickup or delivery preference,
           guest count, and any menu items you already have in mind.
         </p>
       </div>
-      <Field label="Your name" name="name" />
-      <Field label="Email" name="email" type="email" />
+      <Field label="Your name" name="name" required />
+      <Field label="Email" name="email" type="email" required />
       <Field label="Phone" name="phone" type="tel" />
       <div>
-        <label className="block text-[10px] uppercase tracking-[0.25em] text-white/50 font-bold mb-2">
+        <label
+          htmlFor={topicId}
+          className="block text-[10px] uppercase tracking-[0.25em] text-white/50 font-bold mb-2"
+        >
           Topic
         </label>
         <select
+          id={topicId}
           name="topic"
           defaultValue="Catering"
+          required
           className="w-full rounded-xl border-2 border-white/15 bg-white/[0.04] text-white px-4 py-3 text-sm focus:border-[color:var(--lime)] focus:outline-none"
         >
           <option>Catering</option>
@@ -39,15 +49,20 @@ export default function ContactForm({ id = "contact-form" }: { id?: string }) {
       </div>
       <div className="grid sm:grid-cols-2 gap-4">
         <Field label="Event date" name="event-date" type="date" />
-        <Field label="Guest count" name="guest-count" type="number" />
+        <Field label="Guest count" name="guest-count" type="number" min={1} />
       </div>
       <div>
-        <label className="block text-[10px] uppercase tracking-[0.25em] text-white/50 font-bold mb-2">
+        <label
+          htmlFor={messageId}
+          className="block text-[10px] uppercase tracking-[0.25em] text-white/50 font-bold mb-2"
+        >
           Message
         </label>
         <textarea
+          id={messageId}
           name="message"
           rows={6}
+          required
           placeholder="Tell us what you are planning, what menu items you want, and whether you need pickup or delivery."
           className="w-full rounded-xl border-2 border-white/15 bg-white/[0.04] text-white placeholder-white/30 px-4 py-3 text-sm focus:border-[color:var(--lime)] focus:outline-none"
         />
@@ -70,21 +85,34 @@ function Field({
   name,
   type = "text",
   placeholder,
+  required,
+  min,
 }: {
   label: string
   name: string
   type?: string
   placeholder?: string
+  required?: boolean
+  min?: number
 }) {
+  const inputId = `field-${name}`
+
   return (
     <div>
-      <label className="block text-[10px] uppercase tracking-[0.25em] text-white/50 font-bold mb-2">
+      <label
+        htmlFor={inputId}
+        className="block text-[10px] uppercase tracking-[0.25em] text-white/50 font-bold mb-2"
+      >
         {label}
+        {required && <span aria-hidden="true"> *</span>}
       </label>
       <input
+        id={inputId}
         name={name}
         type={type}
         placeholder={placeholder}
+        required={required}
+        min={min}
         className="w-full rounded-xl border-2 border-white/15 bg-white/[0.04] text-white placeholder-white/30 px-4 py-3 text-sm focus:border-[color:var(--lime)] focus:outline-none"
       />
     </div>

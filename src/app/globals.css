@@ -29,6 +29,34 @@ html, body {
 
 * { box-sizing: border-box; }
 
+:focus-visible {
+  outline: 3px solid var(--lime);
+  outline-offset: 4px;
+}
+
+#main-content:focus {
+  outline: none;
+}
+
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: 16px;
+  z-index: 100;
+  transform: translateY(-140%);
+  border: 3px solid var(--bg);
+  border-radius: 999px;
+  background: var(--tortilla);
+  color: var(--bg);
+  font-weight: 900;
+  padding: 12px 18px;
+  transition: transform .15s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 ::selection {
   background: var(--pink);
   color: #fff;
@@ -236,6 +264,7 @@ html, body {
   to { transform: translateX(-50%); }
 }
 .marquee { animation: marquee 35s linear infinite; }
+.marquee:hover { animation-play-state: paused; }
 
 /* Scroll reveal */
 .reveal {

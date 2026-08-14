@@ -126,7 +126,10 @@ export default function HomePage() {
 
       {/* MARQUEE */}
       <div className="bg-[color:var(--lime)] text-black border-y-4 border-white overflow-hidden">
-        <div className="flex marquee whitespace-nowrap py-4 font-display text-2xl uppercase">
+        <div
+          className="flex marquee whitespace-nowrap py-4 font-display text-2xl uppercase"
+          aria-hidden="true"
+        >
           {Array.from({ length: 2 }).map((_, i) => (
             <div key={i} className="flex shrink-0 items-center gap-12 px-6">
               <span>·Breakfast tacos</span>

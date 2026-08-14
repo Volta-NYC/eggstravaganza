@@ -26,6 +26,7 @@ export default function Navbar() {
 
   return (
     <nav
+      aria-label="Primary navigation"
       className={`site-nav sticky top-0 z-40 w-full transition-all duration-300 ${
         scrolled ? "site-nav-scrolled" : ""
       }`}
@@ -91,7 +92,9 @@ export default function Navbar() {
           <button
             onClick={() => setOpen((o) => !o)}
             className="site-nav-toggle inline-flex h-11 w-11 items-center justify-center rounded-full border-2"
-            aria-label="Toggle menu"
+            aria-label="Toggle navigation menu"
+            aria-controls="mobile-navigation"
+            aria-expanded={open}
           >
             <span className="site-nav-toggle-line block w-5 h-px relative before:absolute before:inset-x-0 before:-top-1.5 before:h-px after:absolute after:inset-x-0 after:top-1.5 after:h-px" />
           </button>
@@ -99,7 +102,10 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="site-nav-mobile-menu md:hidden shadow-2xl">
+        <div
+          id="mobile-navigation"
+          className="site-nav-mobile-menu md:hidden shadow-2xl"
+        >
           <div className="max-w-7xl mx-auto px-5 py-4 flex flex-col gap-1 text-base font-semibold">
             {navItems.map((n) => (
               <Link
