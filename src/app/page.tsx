@@ -161,12 +161,12 @@ export default function HomePage() {
             </Link>
           </div>
         </Reveal>
-        <div className="flex gap-3 overflow-x-auto scroll-x -mx-5 px-5 pb-2">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {orderedCategories.map((c, i) => (
             <Reveal key={c.key} delay={i * 50} variant="up">
               <Link
                 href={`/menu#${c.key}`}
-                className="block shrink-0 rounded-2xl border-2 border-white/15 bg-white/[0.04] backdrop-blur px-5 py-4 min-w-[220px] hover:border-[color:var(--pink)] hover:bg-white/[0.08] transition-all hover:-translate-y-1"
+                className="block h-full rounded-2xl border-2 border-white/15 bg-white/[0.04] backdrop-blur px-5 py-4 hover:border-[color:var(--pink)] hover:bg-white/[0.08] transition-colors"
               >
                 <div className="font-display text-lg leading-tight text-white">{c.label}</div>
                 <div className="text-xs text-[color:var(--lime)] mt-1 font-semibold uppercase tracking-wider">
