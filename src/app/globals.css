@@ -65,6 +65,69 @@ html, body {
   background-size: cover;
 }
 
+/* —————————————————— Navigation —————————————————— */
+.site-nav {
+  background:
+    linear-gradient(90deg, rgba(255, 241, 210, 0.98), rgba(255, 226, 188, 0.98));
+  border-bottom: 2px solid rgba(58, 22, 11, 0.18);
+  box-shadow: 0 10px 28px rgba(58, 22, 11, 0.18);
+  color: var(--bg);
+}
+
+.site-nav-scrolled {
+  background: rgba(255, 241, 210, 0.99);
+  border-bottom-color: rgba(58, 22, 11, 0.26);
+  box-shadow: 0 14px 34px rgba(58, 22, 11, 0.26);
+}
+
+.site-nav-brand {
+  color: var(--bg);
+  text-shadow: none;
+}
+
+.site-nav-subtitle {
+  color: #6f8f10;
+  text-shadow: none;
+}
+
+.site-nav-link {
+  color: var(--bg);
+  font-weight: 900;
+  text-shadow: none;
+}
+
+.site-nav-link:hover {
+  background: rgba(58, 22, 11, 0.08);
+  color: var(--pink);
+}
+
+.site-nav-phone {
+  background: var(--bg);
+  color: var(--lime);
+  font-weight: 900;
+  box-shadow: inset 0 0 0 1px rgba(255, 241, 210, 0.2);
+}
+
+.site-nav-phone:hover {
+  color: var(--lime-2);
+}
+
+.site-nav-toggle {
+  border-color: rgba(58, 22, 11, 0.35);
+  color: var(--bg);
+}
+
+.site-nav-toggle-line,
+.site-nav-toggle-line::before,
+.site-nav-toggle-line::after {
+  background: var(--bg);
+}
+
+.site-nav-mobile-menu {
+  background: rgba(255, 241, 210, 0.99);
+  border-top: 1px solid rgba(58, 22, 11, 0.18);
+}
+
 /* —————————————————— Buttons —————————————————— */
 .btn-primary {
   background: var(--pink);
