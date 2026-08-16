@@ -49,7 +49,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto px-5 sm:px-8 py-24 grid md:grid-cols-2 gap-14 items-start">
+      <section className="mobile-paper-text max-w-5xl mx-auto px-5 sm:px-8 py-24 grid md:grid-cols-2 gap-14 items-start">
         <Reveal variant="left">
           <div>
             <h2 className="font-display text-3xl sm:text-5xl text-white leading-[1.05]">
@@ -124,7 +124,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="max-w-3xl mx-auto px-5 sm:px-8 py-24 text-center">
+      <section className="mobile-paper-text max-w-3xl mx-auto px-5 sm:px-8 py-24 text-center">
         <Reveal>
           <blockquote className="font-display text-4xl sm:text-5xl leading-tight text-white">
             <span className="sticker sticker-orange">"Formidable</span>{" "}

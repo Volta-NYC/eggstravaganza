@@ -29,7 +29,7 @@ export default function VisitPage() {
       </section>
 
       <section className="max-w-7xl mx-auto px-5 sm:px-8 py-16 grid lg:grid-cols-5 gap-10">
-        <Reveal variant="left" className="lg:col-span-2 space-y-10">
+        <Reveal variant="left" className="mobile-paper-text lg:col-span-2 space-y-10">
           <div>
             <h2 className="text-[10px] uppercase tracking-[0.25em] text-[color:var(--lime)] font-bold">
               Address

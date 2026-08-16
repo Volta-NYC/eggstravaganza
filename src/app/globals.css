@@ -453,6 +453,47 @@ input, textarea, select {
   color: var(--bg) !important;
 }
 
+@media (max-width: 639px) {
+  .mobile-paper-text .text-white,
+  .mobile-paper-text [class~="text-white/50"],
+  .mobile-paper-text [class~="text-white/55"],
+  .mobile-paper-text [class~="text-white/60"],
+  .mobile-paper-text [class~="text-white/65"],
+  .mobile-paper-text [class~="text-white/70"],
+  .mobile-paper-text [class~="text-white/75"],
+  .mobile-paper-text [class~="text-white/80"],
+  .mobile-paper-text [class~="text-white/90"],
+  .mobile-paper-text [class~="text-[color:var(--lime)]"],
+  .mobile-paper-text [class~="text-[color:var(--pink)]"],
+  .mobile-paper-text [class~="text-[color:var(--pink-2)]"] {
+    color: var(--bg) !important;
+  }
+
+  .mobile-paper-text .sticker {
+    color: var(--bg) !important;
+    text-shadow: none;
+  }
+
+  .mobile-paper-text .card .text-white,
+  .mobile-paper-text .card [class~="text-white/50"],
+  .mobile-paper-text .card [class~="text-white/55"],
+  .mobile-paper-text .card [class~="text-white/60"],
+  .mobile-paper-text .card [class~="text-white/65"],
+  .mobile-paper-text .card [class~="text-white/70"],
+  .mobile-paper-text .card [class~="text-white/75"],
+  .mobile-paper-text .card [class~="text-white/80"],
+  .mobile-paper-text .card [class~="text-white/90"],
+  .mobile-paper-text .card [class~="text-[color:var(--lime)]"],
+  .mobile-paper-text .card [class~="text-[color:var(--pink)]"],
+  .mobile-paper-text .card [class~="text-[color:var(--pink-2)]"],
+  .mobile-paper-text .btn-primary,
+  .mobile-paper-text .btn-primary .text-white,
+  .mobile-paper-text .btn-ghost,
+  .mobile-paper-text .btn-ghost .text-white {
+    color: var(--tortilla) !important;
+  }
+}
+
 .paper {
   background:
     linear-gradient(180deg, rgba(255, 221, 221, 0.82), rgba(255, 221, 221, 0.55) 18%, rgba(57, 20, 9, 0.82) 62%, rgba(25, 12, 6, 0.9)),

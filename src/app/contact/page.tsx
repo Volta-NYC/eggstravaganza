@@ -29,7 +29,7 @@ export default function ContactPage() {
 
       <section className="max-w-5xl mx-auto px-5 sm:px-8 py-16 grid md:grid-cols-2 gap-12">
         <Reveal variant="left">
-          <div className="space-y-7">
+          <div className="mobile-paper-text space-y-7">
             <Info label="Phone" value={business.phone} href={business.phoneHref} highlight />
             <Info label="Address" value={`${business.location.street}, ${business.location.city}, ${business.location.state}`} />
             <Info

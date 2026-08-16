@@ -152,12 +152,12 @@ export default function HomePage() {
       </div>
 
       {/* CATEGORY STRIP */}
-      <section className="max-w-7xl mx-auto px-5 sm:px-8 mt-20">
+      <section className="mobile-paper-text max-w-7xl mx-auto px-5 sm:px-8 mt-20">
         <Reveal>
           <div className="flex items-end justify-between gap-4 mb-6">
             <div>
               <span className="chip chip-orange">The menu</span>
-              <h2 className="mt-3 font-display text-3xl sm:text-5xl text-white">
+              <h2 className="mt-3 font-display text-3xl sm:text-5xl text-black sm:text-white">
                 Order by section
               </h2>
             </div>
@@ -171,10 +171,10 @@ export default function HomePage() {
             <Reveal key={c.key} delay={i * 50} variant="up">
               <Link
                 href={`/menu#${c.key}`}
-                className="block h-full rounded-2xl border-2 border-white/15 bg-white/[0.04] backdrop-blur px-5 py-4 hover:border-[color:var(--pink)] hover:bg-white/[0.08] transition-colors"
+                className="block h-full rounded-2xl border-2 border-black/15 bg-[color:var(--tortilla)] px-5 py-4 text-black shadow-[0_8px_0_rgba(36,16,7,0.22)] transition-colors hover:border-[color:var(--pink)] hover:bg-white sm:border-white/15 sm:bg-white/[0.04] sm:text-white sm:shadow-none sm:backdrop-blur sm:hover:bg-white/[0.08]"
               >
-                <div className="font-display text-lg leading-tight text-white">{c.label}</div>
-                <div className="text-xs text-[color:var(--lime)] mt-1 font-semibold uppercase tracking-wider">
+                <div className="font-display text-lg leading-tight text-black sm:text-white">{c.label}</div>
+                <div className="text-xs text-[color:var(--pink)] sm:text-[color:var(--lime)] mt-1 font-semibold uppercase tracking-wider">
                   {c.items.length} items
                 </div>
               </Link>
@@ -184,15 +184,15 @@ export default function HomePage() {
       </section>
 
       {/* FEATURED */}
-      <section className="max-w-7xl mx-auto px-5 sm:px-8 mt-24">
+      <section className="mobile-paper-text max-w-7xl mx-auto px-5 sm:px-8 mt-24">
         <Reveal>
           <div className="flex items-end justify-between gap-4 mb-8">
             <div>
               <span className="chip">Crowd favorites</span>
-              <h2 className="mt-3 font-display text-3xl sm:text-5xl text-white">
+              <h2 className="mt-3 font-display text-3xl sm:text-5xl text-black sm:text-white">
                 What people order
               </h2>
-              <p className="mt-3 text-white/60 max-w-xl">
+              <p className="mt-3 text-black/75 sm:text-white/60 max-w-xl">
                 The dishes Sunnyside regulars come back for — picked from across
                 the menu.
               </p>
