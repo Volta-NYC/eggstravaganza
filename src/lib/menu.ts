@@ -16,7 +16,29 @@ export type MenuItem = {
   sourceUrl: string
 }
 
-export const menu: MenuItem[] = data as MenuItem[]
+function decodeHtml(value: string): string {
+  return value
+    .replace(/&#34;|&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&#8216;|&#8217;/g, "'")
+    .replace(/&#8220;|&#8221;/g, '"')
+    .replace(/&amp;/g, "&")
+    .replace(/&nbsp;/g, " ")
+}
+
+export const menu: MenuItem[] = (data as MenuItem[]).map((item) => ({
+  ...item,
+  name: decodeHtml(item.name),
+  description: decodeHtml(item.description),
+  options: item.options.map((group) => ({
+    ...group,
+    name: decodeHtml(group.name),
+    choices: group.choices.map((choice) => ({
+      ...choice,
+      name: decodeHtml(choice.name),
+    })),
+  })),
+}))
 
 export const categoryMeta: Record<
   string,

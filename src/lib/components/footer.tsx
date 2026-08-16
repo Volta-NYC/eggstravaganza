@@ -123,7 +123,9 @@ export default function Footer() {
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 text-white hover:text-[color:var(--pink-2)]"
               >
-                <span className="h-7 w-7 rounded-full bg-white/10 grid place-items-center">f</span>
+                <span className="h-7 w-7 rounded-full bg-white/10 grid place-items-center" aria-hidden="true">
+                  <FacebookIcon />
+                </span>
                 Facebook
               </a>
             </li>
@@ -134,7 +136,9 @@ export default function Footer() {
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 text-white hover:text-[color:var(--pink-2)]"
               >
-                <span className="h-7 w-7 rounded-full bg-white/10 grid place-items-center">○</span>
+                <span className="h-7 w-7 rounded-full bg-white/10 grid place-items-center" aria-hidden="true">
+                  <InstagramIcon />
+                </span>
                 Instagram
               </a>
             </li>
@@ -149,7 +153,6 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-5 sm:px-8 py-5 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between text-xs text-white/40">
           <div>© {new Date().getFullYear()} {business.legalName}. All rights reserved.</div>
           <div className="flex gap-5">
-            <span className="text-white/60">{business.website}</span>
             <Link
               href="https://www.novusnyc.org/"
               target="_blank"
@@ -162,5 +165,23 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+  )
+}
+
+function FacebookIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="currentColor">
+      <path d="M14.2 8.7V7.1c0-.7.5-.9.9-.9h2.3V2.4L14.2 2c-3.5 0-4.3 2.1-4.3 4.3v2.4H7v4.1h2.9V22h4.4v-9.2h3.2l.5-4.1h-3.8Z" />
+    </svg>
+  )
+}
+
+function InstagramIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
+      <rect x="4" y="4" width="16" height="16" rx="5" />
+      <circle cx="12" cy="12" r="3.5" />
+      <circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none" />
+    </svg>
   )
 }

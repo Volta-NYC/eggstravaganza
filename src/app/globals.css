@@ -317,6 +317,24 @@ input, textarea, select {
 [class~="border-white/20"] { border-color: rgb(255 241 210 / 0.2) !important; }
 [class~="border-white/30"] { border-color: rgb(255 241 210 / 0.3) !important; }
 
+.card-light .text-white,
+.card-light [class~="text-white/50"],
+.card-light [class~="text-white/60"],
+.card-light [class~="text-white/70"],
+.card-light [class~="text-white/80"],
+.bg-white .text-white,
+.bg-white [class~="text-white/50"],
+.bg-white [class~="text-white/60"],
+.bg-white [class~="text-white/70"],
+.bg-white [class~="text-white/80"],
+[class~="bg-white/90"] .text-white,
+[class~="bg-white/90"] [class~="text-white/50"],
+[class~="bg-white/90"] [class~="text-white/60"],
+[class~="bg-white/90"] [class~="text-white/70"],
+[class~="bg-white/90"] [class~="text-white/80"] {
+  color: var(--bg) !important;
+}
+
 .paper {
   background:
     linear-gradient(180deg, rgba(255, 221, 221, 0.82), rgba(255, 221, 221, 0.55) 18%, rgba(57, 20, 9, 0.82) 62%, rgba(25, 12, 6, 0.9)),

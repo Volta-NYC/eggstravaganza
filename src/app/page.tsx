@@ -209,7 +209,7 @@ export default function HomePage() {
       {/* PRESS */}
       <section className="max-w-7xl mx-auto px-5 sm:px-8 mt-24">
         <Reveal>
-          <div className="rounded-[28px] border-4 border-white bg-[color:var(--teal)] p-7 sm:p-10 text-white shadow-[0_22px_0_rgba(0,0,0,0.28)]">
+          <div className="rounded-[28px] border-4 border-white bg-[color:var(--teal)] p-7 sm:p-10 text-black shadow-[0_22px_0_rgba(0,0,0,0.28)]">
             <div className="grid gap-8 lg:grid-cols-[0.75fr_1.25fr] lg:items-center">
               <div>
                 <span className="chip chip-lime">In the news</span>
@@ -218,13 +218,13 @@ export default function HomePage() {
                 </h2>
               </div>
               <div>
-                <p className="text-sm uppercase tracking-[0.22em] font-black text-white/70">
+                <p className="text-sm uppercase tracking-[0.22em] font-black text-black/70">
                   {business.press[1].source} · {business.press[1].date}
                 </p>
                 <h3 className="mt-3 font-display text-2xl sm:text-3xl leading-tight">
                   {business.press[1].title}
                 </h3>
-                <p className="mt-4 text-white/80 leading-relaxed">
+                <p className="mt-4 text-black/75 leading-relaxed">
                   {business.press[1].summary}
                 </p>
                 <a
@@ -358,7 +358,9 @@ export default function HomePage() {
             </a>
             <div className="mt-8 flex items-center gap-3">
               <span className="h-12 w-12 rounded-full bg-white grid place-items-center text-[color:var(--pink)] font-bold border-2 border-white">f</span>
-              <span className="h-12 w-12 rounded-full bg-white grid place-items-center text-[color:var(--pink)] font-bold border-2 border-white">○</span>
+              <span className="h-12 w-12 rounded-full bg-white grid place-items-center text-[color:var(--pink)] font-bold border-2 border-white">
+                <InstagramIcon />
+              </span>
               <div className="text-white font-display text-lg">
                 {business.socials.handle}
               </div>
@@ -370,6 +372,16 @@ export default function HomePage() {
       {/* Bottom spacer */}
       <div className="h-20" />
     </div>
+  )
+}
+
+function InstagramIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+      <rect x="4" y="4" width="16" height="16" rx="5" />
+      <circle cx="12" cy="12" r="3.5" />
+      <circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none" />
+    </svg>
   )
 }
 

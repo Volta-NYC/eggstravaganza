@@ -36,7 +36,6 @@ export default function ContactPage() {
               label="Hours"
               value={business.hours.map((h) => `${h.day} — ${h.time}`).join("\n")}
             />
-            <Info label="Web" value={business.website} />
             <div>
               <div className="text-[10px] uppercase tracking-[0.25em] text-[color:var(--lime)] font-bold">
                 Follow
@@ -58,7 +57,7 @@ export default function ContactPage() {
                   className="h-11 w-11 rounded-full bg-white text-black grid place-items-center font-bold border-2 border-white hover:bg-[color:var(--lime)] transition-colors"
                   aria-label="Instagram"
                 >
-                  ○
+                  <InstagramIcon />
                 </a>
                 <span className="font-display text-xl text-[color:var(--pink-2)]">
                   {business.socials.handle}
@@ -92,6 +91,16 @@ export default function ContactPage() {
         </Reveal>
       </section>
     </div>
+  )
+}
+
+function InstagramIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+      <rect x="4" y="4" width="16" height="16" rx="5" />
+      <circle cx="12" cy="12" r="3.5" />
+      <circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none" />
+    </svg>
   )
 }
 
