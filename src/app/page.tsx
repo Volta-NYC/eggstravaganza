@@ -4,6 +4,8 @@ import { business } from "@/lib/business"
 import { orderedCategories, featuredItems, priceDisplay } from "@/lib/menu"
 import MenuCard from "@/lib/components/menu-card"
 import Reveal from "@/lib/components/reveal"
+import PhotoGallery from "@/lib/components/photo-gallery"
+import { homeGalleryImages } from "@/lib/gallery"
 
 export default function HomePage() {
   const featured = featuredItems()
@@ -205,6 +207,8 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <PhotoGallery images={homeGalleryImages} />
 
       {/* PRESS */}
       <section className="max-w-7xl mx-auto px-5 sm:px-8 mt-24">
