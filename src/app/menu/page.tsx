@@ -2,6 +2,7 @@ import Link from "next/link"
 import { MenuItem, orderedCategories, priceDisplay } from "@/lib/menu"
 import { business } from "@/lib/business"
 import Reveal from "@/lib/components/reveal"
+import MenuDescription from "@/lib/components/menu-description"
 
 export const metadata = { title: "Menu" }
 
@@ -143,11 +144,7 @@ function MenuRow({ item }: { item: MenuItem }) {
         <h3 className="font-display text-xl leading-tight text-stone-950">
           {item.name}
         </h3>
-        {item.description && (
-          <p className="mt-2 max-w-xl text-sm leading-relaxed text-stone-600 line-clamp-2">
-            {item.description}
-          </p>
-        )}
+        {item.description && <MenuDescription text={item.description} />}
       </div>
       <div className="font-display text-xl text-[color:var(--pink)]">
         {priceDisplay(item.price)}
